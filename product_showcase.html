@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>源洁无尘布 — Yuanjie Cleanroom Products</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-serif; color:#333; line-height:1.6; }
+.container { max-width:1200px; margin:0 auto; padding:0 20px; }
+
+/* Header / Hero */
+.hero { background:linear-gradient(135deg,#1a3a5c 0%,#2b5a8c 100%); color:#fff; padding:60px 0; text-align:center; }
+.hero h1 { font-size:2.5em; margin-bottom:10px; }
+.hero .sub { font-size:1.1em; color:#b8d4f0; margin-bottom:20px; }
+.hero .tag { display:inline-block; background:rgba(255,255,255,0.15); padding:8px 20px; border-radius:20px; margin:3px; font-size:0.9em; }
+
+/* Nav */
+.nav { background:#fff; border-bottom:1px solid #e0e0e0; position:sticky; top:0; z-index:100; }
+.nav .container { display:flex; gap:24px; overflow-x:auto; padding:12px 20px; }
+.nav a { color:#555; text-decoration:none; font-size:0.9em; white-space:nowrap; transition:color 0.2s; }
+.nav a:hover { color:#1a3a5c; font-weight:600; }
+
+/* Sections */
+.section { padding:60px 0; }
+.section:nth-child(even) { background:#f8f9fa; }
+.section-title { font-size:1.6em; color:#1a3a5c; margin-bottom:8px; }
+.section-sub { font-size:0.95em; color:#888; margin-bottom:30px; }
+
+/* Factory grid */
+.factory-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
+.factory-grid img { width:100%; height:200px; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); transition:transform 0.3s; }
+.factory-grid img:hover { transform:scale(1.03); }
+
+/* Product cards */
+.product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:24px; }
+.product-card { background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); transition:box-shadow 0.3s; }
+.product-card:hover { box-shadow:0 4px 20px rgba(0,0,0,0.15); }
+.product-card img { width:100%; height:240px; object-fit:cover; }
+.product-card .info { padding:16px; }
+.product-card .info h3 { font-size:1.1em; color:#1a3a5c; margin-bottom:6px; }
+.product-card .info p { font-size:0.85em; color:#666; margin-bottom:4px; }
+.product-card .info .tag { display:inline-block; background:#e8f0f8; color:#2b5a8c; padding:2px 10px; border-radius:12px; font-size:0.75em; margin-top:4px; }
+
+/* Spec table */
+.spec-table { width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9em; }
+.spec-table th { background:#1a3a5c; color:#fff; padding:10px 12px; text-align:center; }
+.spec-table td { padding:8px 12px; text-align:center; border-bottom:1px solid #e0e0e0; }
+.spec-table tr:nth-child(even) { background:#f8f9fa; }
+.spec-table tr:hover { background:#e8f0f8; }
+
+/* Taobao screenshots */
+.taobao-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px; }
+.taobao-grid .item { background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+.taobao-grid .item img { width:100%; max-height:400px; object-fit:contain; cursor:pointer; }
+.taobao-grid .item .label { padding:6px 12px; font-size:0.8em; color:#888; text-align:center; }
+
+/* Contact */
+.contact-info { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:16px; margin-top:20px; }
+.contact-info .card { background:#fff; padding:20px; border-radius:8px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+.contact-info .card .icon { font-size:2em; margin-bottom:8px; }
+.contact-info .card h4 { color:#1a3a5c; margin-bottom:4px; }
+.contact-info .card p { font-size:0.85em; color:#666; }
+
+/* Market flags */
+.market-list { display:flex; flex-wrap:wrap; gap:12px; margin:20px 0; }
+.market-list .item { background:#fff; padding:12px 20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.06); text-align:center; flex:1; min-width:120px; }
+.market-list .item .flag { font-size:1.8em; margin-bottom:4px; }
+.market-list .item .name { font-size:0.85em; color:#555; }
+
+/* Footer */
+.footer { background:#1a3a5c; color:#b8d4f0; text-align:center; padding:30px 0; font-size:0.85em; }
+.footer strong { color:#fff; }
+
+/* Lightbox */
+.lightbox { display:none; position:fixed; z-index:999; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); cursor:zoom-out; }
+.lightbox img { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); max-width:90%; max-height:90%; }
+
+/* Responsive */
+@media (max-width:768px) {
+  .hero h1 { font-size:1.6em; }
+  .factory-grid { grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); }
+  .product-grid { grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); }
+}
+</style>
+</head>
+<body>
+
+<div class="lightbox" id="lightbox" onclick="this.style.display='none'"><img id="lightbox-img"></div>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="container">
+    <h1>无锡源洁无尘布</h1>
+    <p class="sub">Wuxi Yuanjie Cleanroom Products — Professional Wiper Manufacturer</p>
+    <div>
+      <span class="tag">🏭 工厂直供 Factory Direct</span>
+      <span class="tag">📦 DS系列 Class 100~1000</span>
+      <span class="tag">✂️ 激光封边 Laser Seal</span>
+      <span class="tag">🌍 FOB/CIF 全球发货</span>
+    </div>
+  </div>
+</div>
+
+<!-- Nav -->
+<div class="nav">
+  <div class="container">
+    <a href="#about">🏭 关于 / About</a>
+    <a href="#products">📦 产品 / Products</a>
+    <a href="#factory">📸 工厂 / Factory</a>
+    <a href="#specs">📋 规格 / Specs</a>
+    <a href="#taobao">🛒 店铺 / Store</a>
+    <a href="#contact">📩 联系 / Contact</a>
+  </div>
+</div>
+
+<!-- About -->
+<div class="section" id="about">
+  <div class="container">
+    <h2 class="section-title">🏭 公司简介 / Company Profile</h2>
+    <p class="section-sub">专业无尘布制造商 | Professional Cleanroom Wiper Manufacturer</p>
+    <p>无锡源洁无尘布产品有限公司位于中国江苏省无锡市，专业生产无尘布(无尘擦拭布)和工业擦拭布。我们为电子、半导体、汽车和制药行业提供高品质的清洁解决方案。</p>
+    <p style="margin-top:8px">Wuxi Yuanjie Cleanroom Products, based in Wuxi, Jiangsu, China, is a professional manufacturer of cleanroom wipes and industrial wipes. We supply high-quality cleaning solutions for electronics, semiconductor, automotive, and pharmaceutical industries.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;justify-content:center">
+      <div style="background:#e8f0f8;padding:10px 16px;border-radius:6px;text-align:center"><strong>✅ 工厂直供价</strong><br><span style="font-size:0.8em">Factory Direct Pricing</span></div>
+      <div style="background:#e8f0f8;padding:10px 16px;border-radius:6px;text-align:center"><strong>✅ 灵活MOQ</strong><br><span style="font-size:0.8em">Flexible MOQ</span></div>
+      <div style="background:#e8f0f8;padding:10px 16px;border-radius:6px;text-align:center"><strong>✅ 可定制</strong><br><span style="font-size:0.8em">Custom Sizes/Packaging/LOGO</span></div>
+      <div style="background:#e8f0f8;padding:10px 16px;border-radius:6px;text-align:center"><strong>✅ 样品可寄</strong><br><span style="font-size:0.8em">Samples Available</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Products -->
+<div class="section" id="products" style="background:#f8f9fa">
+  <div class="container">
+    <h2 class="section-title">📦 核心产品 / Core Products</h2>
+    <p class="section-sub">DS系列电子级 + KH系列工业级 | DS Electronic Grade + KH Industrial Grade</p>
+
+    <h3 style="color:#2b5a8c;margin:20px 0 12px">🔵 DS系列 — 电子级无尘布 / Electronic Grade</h3>
+    <p style="margin-bottom:12px;font-size:0.9em">材质: 涤纶+尼龙针织 | 洁净度: Class 100~1000 | 切割: 激光/超声波/冷切</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="product_03.webp" alt="DS系列材质特写" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>DS-0404</h3>
+          <p>📏 4×4" (10×10 cm)</p>
+          <p>⚖️ ~0.12 g/pcs</p>
+          <p>📦 100片/包</p>
+          <span class="tag">Class 100~1000</span>
+          <span class="tag">标准型</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="product_01.webp" alt="DS系列包装" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>DS-0606</h3>
+          <p>📏 6×6" (15×15 cm)</p>
+          <p>⚖️ ~0.25 g/pcs</p>
+          <p>📦 100片/包</p>
+          <span class="tag">Class 100~1000</span>
+          <span class="tag">⭐ 主力型号</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="product_07.webp" alt="DS系列包装" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>DS-0909</h3>
+          <p>📏 9×9" (22.5×22.5 cm)</p>
+          <p>⚖️ ~0.45 g/pcs</p>
+          <p>📦 100片/包</p>
+          <span class="tag">Class 100~1000</span>
+          <span class="tag">⭐ 常用尺寸</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="product_03.webp" alt="材质特写" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>DS-1212</h3>
+          <p>📏 12×12" (30×30 cm)</p>
+          <p>⚖️ ~0.70 g/pcs</p>
+          <p>📦 100片/包</p>
+          <span class="tag">Class 100~1000</span>
+          <span class="tag">大尺寸</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="product_07.webp" alt="DS系列包装" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>DS-1818</h3>
+          <p>📏 18×18" (45×45 cm)</p>
+          <p>⚖️ ~1.85 g/pcs</p>
+          <p>📦 100片/包</p>
+          <span class="tag">Class 100~1000</span>
+          <span class="tag">超大尺寸</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="color:#2b5a8c;margin:30px 0 12px">🟢 KH系列 — 工业擦拭布 / Industrial Wipes</h3>
+    <p style="margin-bottom:12px;font-size:0.9em">材质: 聚酯针织 | 应用: 一般工业清洁 | 高性价比</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="product_01.webp" alt="KH系列" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>KH-0606</h3>
+          <p>📏 6×6" (15×15 cm)</p>
+          <p>📦 100片/包</p>
+          <span class="tag">工业级</span>
+          <span class="tag">常用尺寸</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="product_01.webp" alt="KH系列" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>KH-0909</h3>
+          <p>📏 9×9" (22.5×22.5 cm)</p>
+          <p>📦 100片/包</p>
+          <span class="tag">工业级</span>
+          <span class="tag">⭐ 主力型号</span>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="product_01.webp" alt="KH系列" onclick="openLightbox(this.src)">
+        <div class="info">
+          <h3>KH-1212</h3>
+          <p>📏 12×12" (30×30 cm)</p>
+          <p>📦 100片/包</p>
+          <span class="tag">工业级</span>
+          <span class="tag">大尺寸</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Factory -->
+<div class="section" id="factory">
+  <div class="container">
+    <h2 class="section-title">📸 工厂生产现场 / Factory Production</h2>
+    <p class="section-sub">源洁工厂实拍 — 无尘布生产、切割、包装全流程</p>
+    <div class="factory-grid">
+    
+      <img src="real_factory_01.jpg" alt="Factory production 1" onclick="openLightbox(this.src)">
+      <img src="real_factory_02.jpg" alt="Factory production 2" onclick="openLightbox(this.src)">
+      <img src="real_factory_03.jpg" alt="Factory production 3" onclick="openLightbox(this.src)">
+      <img src="real_factory_04.jpg" alt="Factory production 4" onclick="openLightbox(this.src)">
+      <img src="real_factory_05.jpg" alt="Factory production 5" onclick="openLightbox(this.src)">
+      <img src="real_factory_06.jpg" alt="Factory production 6" onclick="openLightbox(this.src)">
+      <img src="real_factory_07.jpg" alt="Factory production 7" onclick="openLightbox(this.src)">
+      <img src="real_factory_08.jpg" alt="Factory production 8" onclick="openLightbox(this.src)">
+      <img src="real_factory_09.jpg" alt="Factory production 9" onclick="openLightbox(this.src)">
+      <img src="real_factory_10.jpg" alt="Factory production 10" onclick="openLightbox(this.src)">
+      <img src="real_factory_11.jpg" alt="Factory production 11" onclick="openLightbox(this.src)">
+      <img src="real_factory_12.jpg" alt="Factory production 12" onclick="openLightbox(this.src)">
+</div>
+  </div>
+</div>
+
+<!-- Specs -->
+<div class="section" id="specs" style="background:#f8f9fa">
+  <div class="container">
+    <h2 class="section-title">📋 规格参数 / Specifications</h2>
+    <p class="section-sub">DS系列电子级无尘布详细规格</p>
+
+    <table class="spec-table">
+      <tr><th>型号<br>Model</th><th>英寸<br>Inch</th><th>厘米<br>cm</th><th>克重<br>Weight</th><th>材质<br>Material</th><th>包装<br>Packing</th><th>洁净度<br>Cleanliness</th></tr>
+      <tr><td><strong>DS-0404</strong></td><td>4×4</td><td>10×10</td><td>~0.12g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
+      <tr><td><strong>DS-0606</strong></td><td>6×6</td><td>15×15</td><td>~0.25g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
+      <tr><td><strong>DS-0909</strong></td><td>9×9</td><td>22.5×22.5</td><td>~0.45g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
+      <tr><td><strong>DS-1212</strong></td><td>12×12</td><td>30×30</td><td>~0.70g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
+      <tr><td><strong>DS-1818</strong></td><td>18×18</td><td>45×45</td><td>~1.85g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
+    </table>
+
+    <h3 style="color:#2b5a8c;margin:24px 0 12px">切割方式 / Cut Method</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px">
+      <span style="background:#e8f0f8;padding:6px 14px;border-radius:6px;font-size:0.85em">🔦 激光切割 Laser Cut（标准）</span>
+      <span style="background:#e8f0f8;padding:6px 14px;border-radius:6px;font-size:0.85em">🔊 超声波切割 Ultrasonic Cut（可选）</span>
+      <span style="background:#e8f0f8;padding:6px 14px;border-radius:6px;font-size:0.85em">✂️ 冷裁 Cold Cut（低成本选项）</span>
+    </div>
+
+    <h3 style="color:#2b5a8c;margin:24px 0 12px">包装选项 / Packaging Options</h3>
+    <table class="spec-table">
+      <tr><th>包装形式</th><th>说明</th><th>适用场景</th></tr>
+      <tr><td>塑料袋装 Poly Bag</td><td>100片/包，标准包装</td><td>常规订单</td></tr>
+      <tr><td>真空包装 Vacuum Pack</td><td>减少体积，保持洁净</td><td>高洁净要求客户</td></tr>
+      <tr><td>双层包装 Double Bagged</td><td>内外两层</td><td>Class 100~1000 环境</td></tr>
+      <tr><td>散装 Bulk Pack</td><td>经济实惠</td><td>工业级擦拭布</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- Taobao Store -->
+<div class="section" id="taobao">
+  <div class="container">
+    <h2 class="section-title">🛒 在线店铺 / Online Store</h2>
+    <p class="section-sub">淘宝平台店铺及产品页面展示</p>
+    <div class="taobao-grid">
+      <div class="item"><img src="taobao_shop_page.png" alt="店铺主页" onclick="openLightbox(this.src)"><div class="label">🏪 店铺主页 / Store Homepage</div></div>
+      <div class="item"><img src="taobao_state.png" alt="店铺状态" onclick="openLightbox(this.src)"><div class="label">📊 店铺状态 / Store Status</div></div>
+      <div class="item"><img src="wiper_detail.png" alt="产品详情" onclick="openLightbox(this.src)"><div class="label">📄 产品详情 / Product Detail</div></div>
+      <div class="item"><img src="shop_page.png" alt="商店页面" onclick="openLightbox(this.src)"><div class="label">🏬 商店页面 / Shop Page</div></div>
+      <div class="item"><img src="search_result.png" alt="搜索结果" onclick="openLightbox(this.src)"><div class="label">🔍 搜索结果 / Search Results</div></div>
+      <div class="item"><img src="shop_search.png" alt="搜索页面" onclick="openLightbox(this.src)"><div class="label">🔎 搜索页面 / Search Page</div></div>
+      <div class="item"><img src="after_click.png" alt="产品页面" onclick="openLightbox(this.src)"><div class="label">📱 产品页面 / Product Page</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Target Markets -->
+<div class="section" id="markets" style="background:#f8f9fa">
+  <div class="container">
+    <h2 class="section-title">🌍 目标市场 / Target Markets</h2>
+    <p class="section-sub">专注以下区域，诚招代理与分销商</p>
+    <div class="market-list">
+      <div class="item"><div class="flag">🇹🇷</div><div class="name">土耳其<br><span style="font-size:0.75em;color:#888">Turkey</span></div></div>
+      <div class="item"><div class="flag">🇦🇪</div><div class="name">阿联酋<br><span style="font-size:0.75em;color:#888">UAE / Dubai</span></div></div>
+      <div class="item"><div class="flag">🇸🇦</div><div class="name">沙特<br><span style="font-size:0.75em;color:#888">Saudi Arabia</span></div></div>
+      <div class="item"><div class="flag">🇵🇱</div><div class="name">波兰<br><span style="font-size:0.75em;color:#888">Poland</span></div></div>
+      <div class="item"><div class="flag">🇨🇿</div><div class="name">捷克<br><span style="font-size:0.75em;color:#888">Czech</span></div></div>
+      <div class="item"><div class="flag">🇷🇺</div><div class="name">俄罗斯<br><span style="font-size:0.75em;color:#888">Russia / CIS</span></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="section" id="contact">
+  <div class="container">
+    <h2 class="section-title">📩 联系我们 / Contact Us</h2>
+    <p class="section-sub">欢迎询价、索样、洽谈合作</p>
+    <div class="contact-info">
+      <div class="card"><div class="icon">📧</div><h4>Email</h4><p>[your-email@company.com]</p></div>
+      <div class="card"><div class="icon">💬</div><h4>WhatsApp</h4><p>[+86 xxx xxxx xxxx]</p></div>
+      <div class="card"><div class="icon">🌐</div><h4>Website</h4><p>[your-domain.com]</p></div>
+      <div class="card"><div class="icon">📍</div><h4>Address</h4><p>江苏省无锡市<br>Wuxi, Jiangsu, China</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <p><strong>无锡源洁无尘布产品有限公司</strong></p>
+    <p>Wuxi Yuanjie Cleanroom Products Co., Ltd.</p>
+    <p style="margin-top:8px">© 2026 All Rights Reserved | 产品目录PDF / LinkedIn开发指南 请联系获取</p>
+  </div>
+</div>
+
+<script>
+function openLightbox(src) {
+  document.getElementById("lightbox-img").src = src;
+  document.getElementById("lightbox").style.display = "block";
+}
+</script>
+
+</body>
+</html>
