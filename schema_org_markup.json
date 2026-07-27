@@ -16,11 +16,11 @@
   },
   "manufacturer": {
     "@type": "Organization",
-    "name": "Wuxi Yuanjie Cleanroom Products",
+    "name": "Shenzhen Yongxinyuan Technology Co., Ltd. (Longhua Production Base)",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Wuxi",
-      "addressRegion": "Jiangsu",
+      "addressLocality": "Longhua, Shenzhen",
+      "addressRegion": "Guangdong",
       "addressCountry": "CN"
     }
   },
@@ -42,7 +42,7 @@
         "color": "White, Blue, Ivory",
         "manufacturer": {
           "@type": "Organization",
-          "name": "Wuxi Yuanjie Cleanroom Products"
+          "name": "Shenzhen Yongxinyuan Technology Co., Ltd."
         },
         "offers": {
           "@type": "AggregateOffer",
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "sameAs": []
+  "sameAs": ["https://www.linkedin.com/in/%E6%95%8F%E4%B8%9C-%E9%99%88-521404416/"]
 }
