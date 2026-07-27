@@ -1,0 +1,127 @@
+﻿{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Shenzhen Yongxinyuan Technology Co., Ltd.",
+  "alternateName": "深圳永新源科技有限公司",
+  "url": "",
+  "description": "China-based supplier of cleanroom wipes (DS Series, Class 100~1000) and industrial wipes (KH Series). Serving semiconductor, PCB, medical device, and precision electronics industries. Laser-cut polyester/nylon knitted wipes with low particle and low residue performance.",
+  "foundingDate": "",
+  "email": "",
+  "telephone": "",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Shenzhen",
+    "addressRegion": "Guangdong",
+    "addressCountry": "CN"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Wuxi Yuanjie Cleanroom Products",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wuxi",
+      "addressRegion": "Jiangsu",
+      "addressCountry": "CN"
+    }
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "DS Series Electronic Grade Cleanroom Wiper",
+        "description": "Polyester and Nylon knitted cleanroom wipes, ISO Class 5~8 (Class 100~1000), laser-cut sealed edges. Low particle generation, low chemical residue. Suitable for semiconductor cleanrooms, PCB manufacturing, medical device assembly, and precision electronics.",
+        "category": "Cleanroom Consumables",
+        "material": "Polyester + Nylon Knitted",
+        "brand": {
+          "@type": "Brand",
+          "name": "DS Series"
+        },
+        "sku": "DS-0404, DS-0606, DS-0909, DS-1212, DS-1818",
+        "size": "4\"×4\" (10×10 cm) to 18\"×18\" (45×45 cm)",
+        "color": "White, Blue, Ivory",
+        "manufacturer": {
+          "@type": "Organization",
+          "name": "Wuxi Yuanjie Cleanroom Products"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "minPrice": "0.12",
+          "maxPrice": "1.85",
+          "unit": "per piece"
+        }
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "KH Series Industrial Wipes",
+        "description": "Polyester knitted industrial wipes for general cleaning applications. Suitable for mechanical workshops, automotive maintenance, and general industrial cleaning. Cost-effective alternative to cleanroom-grade wipes.",
+        "category": "Industrial Wipes",
+        "material": "Polyester Knitted",
+        "brand": {
+          "@type": "Brand",
+          "name": "KH Series"
+        },
+        "sku": "KH-0606, KH-0909, KH-1212",
+        "size": "6\"×6\" (15×15 cm) to 12\"×12\" (30×30 cm)"
+      }
+    }
+  ],
+  "industry": "Cleanroom Consumables Manufacturing and Export",
+  "description": "Manufacturer and exporter of cleanroom wipes and industrial wipes for contamination control applications across semiconductor, electronics, medical device, and precision manufacturing industries.",
+  "keywords": [
+    "cleanroom wipes supplier",
+    "cleanroom wipes China",
+    "ESD wipes supplier",
+    "polyester cleanroom wipes",
+    "industrial wipes manufacturer",
+    "contamination control",
+    "semiconductor cleaning wipes",
+    "PCB manufacturing wipes",
+    "cleanroom consumables",
+    "laser cut wipes",
+    "China cleanroom supplies",
+    "cleanroom wiping solutions"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Cleanroom Wiper Product Lines",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "name": "DS-0404 Cleanroom Wiper 4\"×4\"",
+        "category": "Electronic Grade Cleanroom Wiper",
+        "sku": "DS-0404"
+      },
+      {
+        "@type": "Product",
+        "name": "DS-0606 Cleanroom Wiper 6\"×6\"",
+        "category": "Electronic Grade Cleanroom Wiper",
+        "sku": "DS-0606"
+      },
+      {
+        "@type": "Product",
+        "name": "DS-0909 Cleanroom Wiper 9\"×9\"",
+        "category": "Electronic Grade Cleanroom Wiper",
+        "sku": "DS-0909"
+      },
+      {
+        "@type": "Product",
+        "name": "DS-1212 Cleanroom Wiper 12\"×12\"",
+        "category": "Electronic Grade Cleanroom Wiper",
+        "sku": "DS-1212"
+      },
+      {
+        "@type": "Product",
+        "name": "DS-1818 Cleanroom Wiper 18\"×18\"",
+        "category": "Electronic Grade Cleanroom Wiper",
+        "sku": "DS-1818"
+      }
+    ]
+  },
+  "sameAs": []
+}
