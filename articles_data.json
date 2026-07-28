@@ -1,0 +1,186 @@
+{
+  "product": [
+    {
+      "title": "Cleanroom Wipes for Semiconductor Manufacturing",
+      "intro": "Semiconductor fabrication requires the highest standards of contamination control.",
+      "body": [
+        "Semiconductor manufacturing is one of the most contamination-sensitive industries. With feature sizes now measured in nanometers, even a single particle can ruin an entire wafer. Cleanroom wipes play a critical role in maintaining cleanliness standards.",
+        "In a typical fab, wipes are used for cleaning wafer handling equipment, removing residues, and maintaining cleanroom surfaces. Wipes must meet strict specifications for particle generation and ionic contamination.",
+        "For ISO Class 5 cleanrooms, polyester knitted wipes with laser-sealed edges are standard. These offer extremely low particle generation and excellent chemical resistance to solvents like IPA and acetone.",
+        "ESD-safe wipes are important in semiconductor environments where static discharge can damage components. Anti-static treatments prevent charge buildup during wiping.",
+        "When selecting wipes for semiconductor applications, consider: particle count per IEST-RP-CC004, ionic extractables, NVR levels, and edge seal quality."
+      ],
+      "tags": "semiconductor, cleanroom wipes, wafer fabrication"
+    },
+    {
+      "title": "ESD Wipes Guide: Protecting Sensitive Electronics",
+      "intro": "Electrostatic discharge is a hidden threat in electronics manufacturing.",
+      "body": [
+        "ESD is one of the most common causes of electronic component failure, costing billions annually. ESD wipes prevent static charge buildup during wiping, protecting sensitive components.",
+        "In PCB assembly lines, ESD wipes clean solder paste residues, remove flux, and wipe workstations. Anti-static properties ensure no triboelectric charges discharge into sensitive components.",
+        "ESD wipes are made from continuous filament polyester or microfiber with integrated anti-static treatment. They dissipate static electricity rather than allowing accumulation.",
+        "Key applications include electronics repair stations, semiconductor handling areas, and PCB inspection stations. Use with other ESD measures like wrist straps and grounding mats."
+      ],
+      "tags": "ESD wipes, static control, electronics manufacturing"
+    },
+    {
+      "title": "Polyester vs Microfiber Cleanroom Wipes",
+      "intro": "Choosing between polyester and microfiber depends on your application.",
+      "body": [
+        "Polyester and microfiber wipes have distinct characteristics for different applications. Polyester wipes from continuous filament fibers offer excellent chemical resistance and low particle generation for solvent application.",
+        "Microfiber wipes from split polyester and polyamide fibers trap and hold particles more effectively. Microfiber has superior absorbency for fine particle removal.",
+        "For ISO Class 5-6 cleanrooms, both materials are appropriate. Polyester is preferred for controlled solvent application, while microfiber excels in final cleaning passes.",
+        "Yongxinyuan DS Series uses high-quality polyester+nylon knitted fabric for optimal performance across cleanroom applications."
+      ],
+      "tags": "polyester wipes, microfiber wipes, cleanroom comparison"
+    },
+    {
+      "title": "Laser Cut vs Ultrasonic Cut vs Cold Cut Wipes",
+      "intro": "Edge sealing directly affects particle generation from cleanroom wipes.",
+      "body": [
+        "Edge sealing is critical for cleanroom wipe performance. Three technologies are used: laser cutting, ultrasonic cutting, and cold cutting.",
+        "Laser cutting uses a high-energy beam to simultaneously cut and seal edges, creating the tightest seal with virtually zero particle release. Standard for ISO Class 5-6.",
+        "Ultrasonic cutting uses high-frequency vibration to fuse fibers, suitable for ISO Class 7-8. Cold cutting is mechanical without sealing, for industrial-grade applications.",
+        "Yongxinyuan offers all three methods: laser cut standard for DS Series, ultrasonic as option, and cold cut for KH Series industrial wipes."
+      ],
+      "tags": "laser cut, ultrasonic cut, cold cut, edge sealing"
+    },
+    {
+      "title": "Cleanroom Wiper Packaging Guide",
+      "intro": "The right packaging preserves wipe cleanliness from factory to point of use.",
+      "body": [
+        "Packaging preserves cleanliness from manufacturing to point of use. Different options suit different cleanroom classes and handling requirements.",
+        "Poly bag packaging provides basic protection for ISO Class 7-8. Vacuum packaging reduces volume for better cleanliness and logistics. Double bagged with inner and outer layers is standard for ISO Class 5-6.",
+        "Bulk packaging is the most cost-effective option for industrial-grade wipes in non-classified environments.",
+        "Yongxinyuan offers all packaging options to match your cleanroom requirements."
+      ],
+      "tags": "packaging, vacuum pack, double bagged"
+    }
+  ],
+  "technical": [
+    {
+      "title": "ISO 14644 Cleanroom Classification Guide",
+      "intro": "Understand cleanroom classifications from Class 1 to Class 9.",
+      "body": [
+        "ISO 14644-1 defines cleanroom classes based on airborne particle concentration. ISO Class 1 is cleanest, Class 9 least strict.",
+        "ISO Class 5 permits no more than 3,520 particles at 0.5 microns per cubic meter. Used for semiconductor fabs and aseptic filling.",
+        "ISO Class 8 permits up to 3,520,000 particles. Suitable for general cleanroom manufacturing.",
+        "Select wipes appropriate for your class. Yongxinyuan DS Series suits ISO Class 5-8 with documented test results."
+      ],
+      "tags": "ISO 14644, cleanroom classification, cleanroom standards"
+    },
+    {
+      "title": "Particle Contamination Control in Semiconductor Manufacturing",
+      "intro": "Particle contamination is the number one yield killer in semiconductor fabs.",
+      "body": [
+        "Particle contamination is the leading cause of yield loss in semiconductor manufacturing. As devices shrink to 3nm, even smaller particles cause defects.",
+        "Sources include operators, equipment wear, process residues, and cleaning materials. Wipes must remove contaminants without introducing new ones.",
+        "Wipe particle generation is measured per IEST-RP-CC004. Laser-cut sealed-edge wipes minimize shedding. Ionic contamination is also critical.",
+        "Yongxinyuan tests DS Series for both particle generation and ionic extractables."
+      ],
+      "tags": "particle contamination, semiconductor, yield improvement"
+    },
+    {
+      "title": "Cleanroom Wiping Procedures and Best Practices",
+      "intro": "Even the best wipes are ineffective without proper technique.",
+      "body": [
+        "Proper wiping technique is as important as wipe quality. Move contaminants away from surfaces, not spread them.",
+        "Wipe in a single direction using the S-fold technique. Change the fold after each pass. Overlap strokes by 10%. Change wipes frequently.",
+        "For equipment cleaning, pre-wet with IPA or DI water. Use minimal pressure to avoid generating particles from the surface.",
+        "Document procedures in SOPs specifying wipe type, cleaning agent, technique, frequency, and validation."
+      ],
+      "tags": "wiping procedure, cleanroom cleaning, best practices"
+    },
+    {
+      "title": "Non-Volatile Residue in Cleanroom Wipes",
+      "intro": "NVR measures the chemical cleanliness of cleanroom wipes.",
+      "body": [
+        "NVR refers to solid material left after solvent evaporates from a wipe. High NVR leaves residues causing defects in semiconductor and medical device manufacturing.",
+        "Testing involves extracting wipes with solvent, evaporating, and weighing residue. Results in mg per gram of material or per square meter.",
+        "For ISO Class 5, NVR should be below 0.1 mg/g. Yongxinyuan DS Series maintains tight NVR controls.",
+        "Low NVR requires careful raw material selection, controlled manufacturing, and proper packaging."
+      ],
+      "tags": "NVR, non-volatile residue, cleanroom testing"
+    },
+    {
+      "title": "How to Choose Wipes for ISO Class 5-8",
+      "intro": "Practical guide based on your cleanroom classification and application.",
+      "body": [
+        "Selecting the right wipe for each classification is essential for performance and cost.",
+        "For ISO Class 5: laser-sealed edges, documented particle counts, NVR below 0.1 mg/g, double-bagged packaging.",
+        "For ISO Class 6-7: ultrasonic-sealed edges acceptable, moderate particle tolerances, standard packaging.",
+        "For ISO Class 8: cold-cut or ultrasonic-cut with higher tolerances. Focus on lint-free performance.",
+        "Always review batch test reports. Yongxinyuan provides documented results with each production batch."
+      ],
+      "tags": "wiper selection, ISO Class 5, cleanroom guide"
+    }
+  ],
+  "sourcing": [
+    {
+      "title": "How to Select Cleanroom Wipes Suppliers in China",
+      "intro": "Comprehensive guide to finding and qualifying Chinese manufacturers.",
+      "body": [
+        "China is the leading manufacturing hub for cleanroom consumables. Quality varies significantly.",
+        "Determine if supplier is manufacturer or trader. Manufacturer-direct suppliers like Yongxinyuan offer better pricing and quality control.",
+        "Evaluate production capabilities: cut methods, packaging, capacity. Request test reports per IEST-RP-CC004.",
+        "Communication is critical. A responsive supplier with clear technical knowledge is more reliable long-term."
+      ],
+      "tags": "supplier selection, China sourcing, manufacturer audit"
+    },
+    {
+      "title": "China Cleanroom Consumables Sourcing 2026",
+      "intro": "Latest guide for international buyers sourcing from China.",
+      "body": [
+        "Chinas cleanroom industry continues growing with domestic semiconductor and electronics expansion.",
+        "Key hubs: Shenzhen for electronics-grade wipes, Yangtze River Delta for semiconductor consumables.",
+        "Price trends in 2026: gap between budget and premium wipes has narrowed. Expect premium for documented quality.",
+        "Start with sample orders to evaluate quality before committing to larger volumes."
+      ],
+      "tags": "China sourcing, cleanroom consumables, sourcing guide"
+    },
+    {
+      "title": "MOQ, Lead Time, and Shipping Guide",
+      "intro": "Practical procurement information for cleanroom wipes from China.",
+      "body": [
+        "Standard MOQ: 100-200 packs per SKU, 100 pieces per pack. Custom orders may require 300-500 packs.",
+        "Production lead time: 15-25 days for standard products. Custom products: 25-40 days.",
+        "Sea freight: 25-35 days to Europe, 15-20 days to US West Coast. Air freight 5-10 days. Express 3-7 days.",
+        "Plan 6-8 weeks total from order to delivery for sea freight."
+      ],
+      "tags": "MOQ, lead time, shipping, procurement"
+    },
+    {
+      "title": "OEM Cleanroom Wipes Custom Manufacturing",
+      "intro": "How to order custom wipes with your specifications and branding.",
+      "body": [
+        "OEM allows specifying exact dimensions, materials, edge sealing, packaging, and branding.",
+        "Process: specification discussion, sample development, approval, mass production.",
+        "Customizable: dimensions, materials, cut method, packaging type, logo printing, special treatments.",
+        "Yongxinyuan offers comprehensive OEM with flexibility for custom requirements."
+      ],
+      "tags": "OEM, custom manufacturing, private label"
+    },
+    {
+      "title": "Quality Control Checklist for Chinese Manufacturers",
+      "intro": "Systematic framework for evaluating QC at cleanroom wipe factories.",
+      "body": [
+        "Raw material inspection: incoming yarns inspected, certificates of analysis obtained.",
+        "In-process QC: production parameters monitored, visual inspection stations, non-conforming product identification.",
+        "Finished product testing: particle count per IEST-RP-CC004, NVR, absorbency. Test results with each shipment.",
+        "Documentation and traceability: batch records, product tracing, corrective actions documented."
+      ],
+      "tags": "quality control, factory audit, QC checklist"
+    },
+    {
+      "title": "Import Guide: Shipping from China to EU and USA",
+      "intro": "Navigate import process with documentation, customs, and logistics guidance.",
+      "body": [
+        "Required documents: commercial invoice, packing list, bill of lading, certificate of origin, test reports.",
+        "HS code: 5603.92/5603.94 for nonwoven fabrics, or 6307.10 for cleaning cloths.",
+        "EU import duties: 6-8%. US rates vary by classification.",
+        "Sea freight from Shenzhen: 25-35 days to Europe, 15-20 days to US West Coast."
+      ],
+      "tags": "import guide, shipping China, customs clearance"
+    }
+  ]
+}
