@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>永新源无尘布 — Yongxinyuan Cleanroom Products</title>
+<title>永新源无尘布 — Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.</title>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-serif; color:#333; line-height:1.6; }
@@ -36,7 +36,9 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
 .product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:24px; }
 .product-card { background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); transition:box-shadow 0.3s; }
 .product-card:hover { box-shadow:0 4px 20px rgba(0,0,0,0.15); }
-.product-card img { width:100%; height:240px; object-fit:cover; }
+.product-card img { width:100%; height:auto; display:block; }
+.product-card .gallery { display:grid; grid-template-columns:1fr 1fr; gap:4px; padding:4px; }
+.product-card .gallery img { width:100%; height:auto; display:block; border-radius:4px; cursor:zoom-in; }
 .product-card .info { padding:16px; }
 .product-card .info h3 { font-size:1.1em; color:#1a3a5c; margin-bottom:6px; }
 .product-card .info p { font-size:0.85em; color:#666; margin-bottom:4px; }
@@ -82,6 +84,15 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
   .factory-grid { grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); }
   .product-grid { grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); }
 }
+
+/* Spec tabs */
+.spec-tabs { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0 4px; }
+.spec-tab { padding:8px 16px; border:1px solid #c9d6e4; background:#fff; border-radius:20px; cursor:pointer; font-size:0.88em; color:#2b5a8c; transition:all .2s; }
+.spec-tab:hover { background:#e8f0f8; }
+.spec-tab.active { background:#1a3a5c; color:#fff; border-color:#1a3a5c; }
+.spec-panel { display:none; }
+.spec-panel.active { display:block; }
+
 </style>
 </head>
 <body>
@@ -91,8 +102,8 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
 <!-- Hero -->
 <div class="hero">
   <div class="container">
-    <h1>深圳永新源科技</h1>
-    <p class="sub">Shenzhen Yongxinyuan Cleanroom Products — Professional Wiper Manufacturer</p>
+    <h1>深圳市永新源防静电科技有限公司</h1>
+    <p class="sub">Shenzhen Yongxinyuan Anti-static Technology Co., Ltd. — Professional Wiper Manufacturer</p>
     <div>
       <span class="tag">🏭 工厂直供 Factory Direct</span>
       <span class="tag">📦 DS系列 Class 100~1000</span>
@@ -121,8 +132,8 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
   <div class="container">
     <h2 class="section-title">🏭 公司简介 / Company Profile</h2>
     <p class="section-sub">专业无尘布制造商 | Professional Cleanroom Wiper Manufacturer</p>
-    <p>深圳永新源科技有限公司位于中国深圳市龙华区，专业生产无尘布(无尘擦拭布)和工业擦拭布。我们为电子、半导体、汽车和制药行业提供高品质的清洁解决方案。</p>
-    <p style="margin-top:8px">Shenzhen Yongxinyuan Cleanroom Products, based in Longhua, Shenzhen, China, is a professional manufacturer of cleanroom wipes and industrial wipes. We supply high-quality cleaning solutions for electronics, semiconductor, automotive, and pharmaceutical industries.</p>
+    <p>深圳市永新源防静电科技有限公司位于中国深圳市龙华区，专业生产无尘布(无尘擦拭布)和工业擦拭布。我们为电子、半导体、汽车和制药行业提供高品质的清洁解决方案。</p>
+    <p style="margin-top:8px">Shenzhen Yongxinyuan Anti-static Technology Co., Ltd., based in Longhua, Shenzhen, China, is a professional manufacturer of cleanroom wipes and industrial wipes. We supply high-quality cleaning solutions for electronics, semiconductor, automotive, and pharmaceutical industries.</p>
     <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;justify-content:center">
       <div style="background:#e8f0f8;padding:10px 16px;border-radius:6px;text-align:center"><strong>✅ 工厂直供价</strong><br><span style="font-size:0.8em">Factory Direct Pricing</span></div>
       <div style="background:#e8f0f8;padding:10px 16px;border-radius:6px;text-align:center"><strong>✅ 灵活MOQ</strong><br><span style="font-size:0.8em">Flexible MOQ</span></div>
@@ -136,101 +147,74 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
 <div class="section" id="products" style="background:#f8f9fa">
   <div class="container">
     <h2 class="section-title">📦 核心产品 / Core Products</h2>
-    <p class="section-sub">DS系列电子级 + KH系列工业级 | DS Electronic Grade + KH Industrial Grade</p>
+    <p class="section-sub">四大核心产品线 | Four Core Product Lines — 与制造网在售产品一致</p>
 
-    <h3 style="color:#2b5a8c;margin:20px 0 12px">🔵 DS系列 — 电子级无尘布 / Electronic Grade</h3>
-    <p style="margin-bottom:12px;font-size:0.9em">材质: 涤纶+尼龙针织 | 洁净度: Class 100~1000 | 切割: 激光/超声波/冷切</p>
     <div class="product-grid">
       <div class="product-card">
-        <img src="product_03.webp" alt="DS系列材质特写" onclick="openLightbox(this.src)">
+        <img src="poster_lintfree.webp" alt="超细纤维无绒无尘布" onclick="openLightbox(this.src)">
         <div class="info">
-          <h3>DS-0404</h3>
-          <p>📏 4×4" (10×10 cm)</p>
-          <p>⚖️ ~0.12 g/pcs</p>
-          <p>📦 100片/包</p>
-          <span class="tag">Class 100~1000</span>
-          <span class="tag">标准型</span>
+          <h3>超细纤维无绒无尘布</h3>
+          <p>Superfine Fiber Lint-Free Cleanroom Wipes</p>
+          <p>💧 超强吸水 &middot; 柔软不掉屑</p>
+          <p>🧽 干湿两用 &middot; Class 100~1000</p>
+          <span class="tag">100%聚酯</span>
+          <span class="tag">超细纤维</span>
+          <span class="tag">不掉屑</span>
         </div>
       </div>
       <div class="product-card">
-        <img src="product_01.webp" alt="DS系列包装" onclick="openLightbox(this.src)">
+        <img src="poster_9x9.webp" alt="100%聚酯双层编织擦拭布9x9" onclick="openLightbox(this.src)">
         <div class="info">
-          <h3>DS-0606</h3>
-          <p>📏 6×6" (15×15 cm)</p>
-          <p>⚖️ ~0.25 g/pcs</p>
-          <p>📦 100片/包</p>
-          <span class="tag">Class 100~1000</span>
-          <span class="tag">⭐ 主力型号</span>
+          <h3>100% 聚酯双层编织擦拭布 (9"×9")</h3>
+          <p>100% Polyester Double-Knit Cleanroom Wiping Cloth</p>
+          <p>📏 9&times;9" (22.5&times;22.5 cm) &middot; ROHS</p>
+          <p>🧼 不掉屑 &middot; Class 100~1000</p>
+          <span class="tag">100%聚酯</span>
+          <span class="tag">双层编织</span>
+          <span class="tag">激光封边</span>
         </div>
       </div>
       <div class="product-card">
-        <img src="product_07.webp" alt="DS系列包装" onclick="openLightbox(this.src)">
+        <img src="poster_knit.webp" alt="100%聚酯双层编织无尘布" onclick="openLightbox(this.src)">
         <div class="info">
-          <h3>DS-0909</h3>
-          <p>📏 9×9" (22.5×22.5 cm)</p>
-          <p>⚖️ ~0.45 g/pcs</p>
-          <p>📦 100片/包</p>
-          <span class="tag">Class 100~1000</span>
-          <span class="tag">⭐ 常用尺寸</span>
+          <h3>100% 聚酯双层编织无尘布</h3>
+          <p>100% Polyester Double-Knit Lint-Free Cleanroom Wipes</p>
+          <p>🧼 低发尘 &middot; Class 100~1000</p>
+          <p>🏭 半导体/电子/实验室/制药适用</p>
+          <span class="tag">100%聚酯</span>
+          <span class="tag">双层编织</span>
+          <span class="tag">不掉屑</span>
         </div>
       </div>
       <div class="product-card">
-        <img src="product_03.webp" alt="材质特写" onclick="openLightbox(this.src)">
-        <div class="info">
-          <h3>DS-1212</h3>
-          <p>📏 12×12" (30×30 cm)</p>
-          <p>⚖️ ~0.70 g/pcs</p>
-          <p>📦 100片/包</p>
-          <span class="tag">Class 100~1000</span>
-          <span class="tag">大尺寸</span>
+        <div class="gallery">
+          <img src="poster_0609_1.webp" alt="0609无尘擦拭纸产品信息" onclick="openLightbox(this.src)">
+          <img src="poster_0609_2.webp" alt="0609无尘擦拭纸" onclick="openLightbox(this.src)">
+          <img src="poster_0609_3.webp" alt="0609无尘擦拭纸" onclick="openLightbox(this.src)">
+          <img src="poster_0609_4.webp" alt="0609无尘擦拭纸" onclick="openLightbox(this.src)">
         </div>
-      </div>
-      <div class="product-card">
-        <img src="product_07.webp" alt="DS系列包装" onclick="openLightbox(this.src)">
         <div class="info">
-          <h3>DS-1818</h3>
-          <p>📏 18×18" (45×45 cm)</p>
-          <p>⚖️ ~1.85 g/pcs</p>
-          <p>📦 100片/包</p>
-          <span class="tag">Class 100~1000</span>
-          <span class="tag">超大尺寸</span>
+          <h3>0609 无尘擦拭纸 (Airlaid)</h3>
+          <p>Airlaid Paper Cleanroom Wipes</p>
+          <p>📏 4寸/6寸/9寸 &middot; 单层 &middot; 白色</p>
+          <p>🌲 55%纤维素(原生木浆) + 45%聚酯 &middot; 不掉屑不留痕</p>
+          <span class="tag">强效吸油吸水</span>
+          <span class="tag">防静电</span>
+          <span class="tag">真空包装</span>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <h3 style="color:#2b5a8c;margin:30px 0 12px">🟢 KH系列 — 工业擦拭布 / Industrial Wipes</h3>
-    <p style="margin-bottom:12px;font-size:0.9em">材质: 聚酯针织 | 应用: 一般工业清洁 | 高性价比</p>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="product_01.webp" alt="KH系列" onclick="openLightbox(this.src)">
-        <div class="info">
-          <h3>KH-0606</h3>
-          <p>📏 6×6" (15×15 cm)</p>
-          <p>📦 100片/包</p>
-          <span class="tag">工业级</span>
-          <span class="tag">常用尺寸</span>
-        </div>
-      </div>
-      <div class="product-card">
-        <img src="product_01.webp" alt="KH系列" onclick="openLightbox(this.src)">
-        <div class="info">
-          <h3>KH-0909</h3>
-          <p>📏 9×9" (22.5×22.5 cm)</p>
-          <p>📦 100片/包</p>
-          <span class="tag">工业级</span>
-          <span class="tag">⭐ 主力型号</span>
-        </div>
-      </div>
-      <div class="product-card">
-        <img src="product_01.webp" alt="KH系列" onclick="openLightbox(this.src)">
-        <div class="info">
-          <h3>KH-1212</h3>
-          <p>📏 12×12" (30×30 cm)</p>
-          <p>📦 100片/包</p>
-          <span class="tag">工业级</span>
-          <span class="tag">大尺寸</span>
-        </div>
-      </div>
+<!-- Applications -->
+<div class="section" id="applications">
+  <div class="container">
+    <h2 class="section-title">🎯 应用场景 / Applications</h2>
+    <p class="section-sub">适用于相机、手机、LED、无尘车间、实验室、精密仪器等擦拭</p>
+    <div style="text-align:center;background:#f8f9fa;border-radius:12px;padding:24px">
+      <img src="applications.png" alt="无尘布应用场景" style="max-width:520px;width:100%;border-radius:8px;cursor:zoom-in" onclick="openLightbox(this.src)">
+      <p style="margin-top:14px;font-size:0.9em;color:#666">LED显示器 · 实验室 · 镜面擦拭 · 精密仪器 · 无尘车间 · 光学类</p>
     </div>
   </div>
 </div>
@@ -239,7 +223,7 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
 <div class="section" id="factory">
   <div class="container">
     <h2 class="section-title">📸 工厂生产现场 / Factory Production</h2>
-    <p class="section-sub">源洁工厂实拍 — 无尘布生产、切割、包装全流程</p>
+    <p class="section-sub">永新源工厂实拍 — 无尘布生产、切割、包装全流程</p>
     <div class="factory-grid">
     
       <img src="real_factory_01.jpg" alt="Factory production 1" onclick="openLightbox(this.src)">
@@ -262,16 +246,82 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
 <div class="section" id="specs" style="background:#f8f9fa">
   <div class="container">
     <h2 class="section-title">📋 规格参数 / Specifications</h2>
-    <p class="section-sub">DS系列电子级无尘布详细规格</p>
+    <p class="section-sub">四大核心产品详细规格（与上方产品图一一对应）</p>
 
+        <div class="spec-tabs" role="tablist">
+      <button class="spec-tab active" onclick="showSpecTab(event, this, 0)">① 超细纤维无尘布</button>
+      <button class="spec-tab" onclick="showSpecTab(event, this, 1)">② 9"×9" 擦拭布</button>
+      <button class="spec-tab" onclick="showSpecTab(event, this, 2)">③ 双层编织无尘布</button>
+      <button class="spec-tab" onclick="showSpecTab(event, this, 3)">④ 0609 擦拭纸</button>
+    </div>
+    <div class="spec-panels">
+      <div class="spec-panel active">
+        <h3 style="color:#2b5a8c;margin:24px 0 12px">① 超细纤维无绒无尘布</h3>
     <table class="spec-table">
-      <tr><th>型号<br>Model</th><th>英寸<br>Inch</th><th>厘米<br>cm</th><th>克重<br>Weight</th><th>材质<br>Material</th><th>包装<br>Packing</th><th>洁净度<br>Cleanliness</th></tr>
-      <tr><td><strong>DS-0404</strong></td><td>4×4</td><td>10×10</td><td>~0.12g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
-      <tr><td><strong>DS-0606</strong></td><td>6×6</td><td>15×15</td><td>~0.25g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
-      <tr><td><strong>DS-0909</strong></td><td>9×9</td><td>22.5×22.5</td><td>~0.45g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
-      <tr><td><strong>DS-1212</strong></td><td>12×12</td><td>30×30</td><td>~0.70g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
-      <tr><td><strong>DS-1818</strong></td><td>18×18</td><td>45×45</td><td>~1.85g</td><td>涤纶+锦纶针织</td><td>100片/包</td><td>Class 100~1000</td></tr>
+      <tr><th style="width:220px">参数 / Attribute</th><th>数值 / Value</th></tr>
+      <tr><td>材质 Material</td><td>100% 聚酯超细纤维（针织，无绒不掉屑）</td></tr>
+      <tr><td>尺寸 Sizes</td><td>4"×4" / 6"×6" / 9"×9" / 12"×12"（可定制）</td></tr>
+      <tr><td>克重 Fabric Weight</td><td>120 g/m²（行业标准）</td></tr>
+      <tr><td>封边 Edge Seal</td><td>激光封口（标准）· 超声波封边（可选）</td></tr>
+      <tr><td>洁净度 Cleanliness</td><td>Class 100（100级净化）· 适用于 Class 10000 无尘车间</td></tr>
+      <tr><td>应用 Application</td><td>无尘车间、电子工业、精密仪器</td></tr>
+      <tr><td>核心特点 Key Features</td><td>超强吸水 · 柔软不掉屑 · 干湿两用 · 无需清洁剂</td></tr>
+      <tr><td>包装 Packing</td><td>100片/包 · 塑料袋装 / 真空包装</td></tr>
+      <tr><td>起订量 MOQ</td><td>100 包</td></tr>
+      <tr><td>认证 Certification</td><td>RoHS · 可提供第三方检测报告</td></tr>
     </table>
+      </div>
+      <div class="spec-panel">
+        <h3 style="color:#2b5a8c;margin:24px 0 12px">② 100% 聚酯双层编织擦拭布 (9"×9")</h3>
+    <table class="spec-table">
+      <tr><th style="width:220px">参数 / Attribute</th><th>数值 / Value</th></tr>
+      <tr><td>材质 Material</td><td>100% 聚酯双层编织（长丝）</td></tr>
+      <tr><td>尺寸 Size</td><td>9"×9"（22.5×22.5 cm）</td></tr>
+      <tr><td>克重 Fabric Weight</td><td>120 g/m²（行业标准）</td></tr>
+      <tr><td>封边 Edge Seal</td><td>激光封边，密封边缘（标准）</td></tr>
+      <tr><td>洁净度 Cleanliness</td><td>Class 100~1000</td></tr>
+      <tr><td>掉屑数 LPC（≥0.5µm）</td><td>≤1,100 counts/cm²（典型值，可提供检测报告）</td></tr>
+      <tr><td>吸水率 Absorbency</td><td>≥412 mL/m²（典型值）</td></tr>
+      <tr><td>应用 Application</td><td>工业、洁净室</td></tr>
+      <tr><td>包装 Packing</td><td>100–150片/包 · 塑料袋装 / 真空包装</td></tr>
+      <tr><td>起订量 MOQ</td><td>100 包</td></tr>
+      <tr><td>认证 Certification</td><td>RoHS · 可提供第三方检测报告</td></tr>
+    </table>
+      </div>
+      <div class="spec-panel">
+        <h3 style="color:#2b5a8c;margin:24px 0 12px">③ 100% 聚酯双层编织无尘布</h3>
+    <table class="spec-table">
+      <tr><th style="width:220px">参数 / Attribute</th><th>数值 / Value</th></tr>
+      <tr><td>材质 Material</td><td>100% 聚酯双层编织，不掉屑</td></tr>
+      <tr><td>尺寸 Sizes</td><td>4"×4" / 6"×6" / 9"×9" / 12"×12"（可定制）</td></tr>
+      <tr><td>克重 Fabric Weight</td><td>120 g/m²（行业标准）</td></tr>
+      <tr><td>织纹 Texture</td><td>直纹编织</td></tr>
+      <tr><td>封边 Edge Seal</td><td>激光封边（标准）· 超声波封边（可选）</td></tr>
+      <tr><td>洁净度 Cleanliness</td><td>Class 100~1000 · 低发尘</td></tr>
+      <tr><td>应用 Application</td><td>无尘车间、电子工业</td></tr>
+      <tr><td>核心特点 Key Features</td><td>低掉屑低残留 · 高抗拉强度 · 耐化学溶剂</td></tr>
+      <tr><td>包装 Packing</td><td>100–150片/包 · 塑料袋装 / 真空包装</td></tr>
+      <tr><td>起订量 MOQ</td><td>100 包</td></tr>
+      <tr><td>认证 Certification</td><td>RoHS · 可提供第三方检测报告</td></tr>
+    </table>
+      </div>
+      <div class="spec-panel">
+        <h3 style="color:#2b5a8c;margin:24px 0 12px">④ 0609 无尘擦拭纸（Airlaid）</h3>
+    <table class="spec-table">
+      <tr><th style="width:220px">参数 / Attribute</th><th>数值 / Value</th></tr>
+      <tr><td>材质 Material</td><td>55% 纤维素（原生木浆）+ 45% 聚酯纤维（无纺）</td></tr>
+      <tr><td>层数 / 颜色 Layer / Color</td><td>单层 · 白色</td></tr>
+      <tr><td>尺寸 Sizes</td><td>4寸（10 cm）/ 6寸（15 cm）/ 9寸（22.5 cm），可混装</td></tr>
+      <tr><td>克重 Fabric Weight</td><td>56 g/m²（行业标准）</td></tr>
+      <tr><td>边缘 Edge</td><td>密封边缘，低掉屑</td></tr>
+      <tr><td>级别 Grade</td><td>工业级 · 防静电 · 低掉屑</td></tr>
+      <tr><td>核心特点 Key Features</td><td>强效吸油吸水 · 高抗拉 · 不划伤 · 可搭配任意清洁液</td></tr>
+      <tr><td>包装 Packing</td><td>真空包装、内置独立小包装 · 100–300片/包</td></tr>
+      <tr><td>起订量 MOQ</td><td>100 包</td></tr>
+      <tr><td>认证 Certification</td><td>RoHS · 可提供第三方检测报告</td></tr>
+    </table>
+      </div>
+    </div>
 
     <h3 style="color:#2b5a8c;margin:24px 0 12px">切割方式 / Cut Method</h3>
     <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px">
@@ -288,6 +338,7 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
       <tr><td>双层包装 Double Bagged</td><td>内外两层</td><td>Class 100~1000 环境</td></tr>
       <tr><td>散装 Bulk Pack</td><td>经济实惠</td><td>工业级擦拭布</td></tr>
     </table>
+    <p style="font-size:0.85em;color:#888;margin-top:12px">⚠ 克重、掉屑数、吸水率等参考同行阿里店铺（xwk.en.alibaba.com）及行业标准整理，可提供工厂检测报告与认证文件，最终以订单确认参数为准。</p>
   </div>
 </div>
 
@@ -324,13 +375,24 @@ body { font-family: "Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-
 <!-- Footer -->
 <div class="footer">
   <div class="container">
-    <p><strong>深圳永新源科技有限公司</strong></p>
-    <p>Shenzhen Yongxinyuan Cleanroom Products Co., Ltd.</p>
+    <p><strong>深圳市永新源防静电科技有限公司</strong></p>
+    <p>Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.</p>
     <p style="margin-top:8px">© 2026 All Rights Reserved | 产品目录PDF / LinkedIn开发指南 请联系获取</p>
   </div>
 </div>
 
 <script>
+
+function showSpecTab(ev, btn, idx) {
+  ev.preventDefault();
+  var tabs = btn.parentElement.querySelectorAll('.spec-tab');
+  var panels = btn.parentElement.nextElementSibling.querySelectorAll('.spec-panel');
+  for (var i = 0; i < tabs.length; i++) tabs[i].classList.remove('active');
+  for (var i = 0; i < panels.length; i++) panels[i].classList.remove('active');
+  btn.classList.add('active');
+  panels[idx].classList.add('active');
+}
+
 function openLightbox(src) {
   document.getElementById("lightbox-img").src = src;
   document.getElementById("lightbox").style.display = "block";
