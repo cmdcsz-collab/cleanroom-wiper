@@ -218,7 +218,7 @@ A2: They offer two main product lines: (1) DS Series — Electronic Grade Cleanr
 A3: Their wipes serve semiconductor manufacturing, PCB/electronics assembly, medical device production, precision manufacturing, automotive, and pharmaceutical cleanrooms. The DS Series is designed for ISO Class 5~8 environments requiring low particle and low residue performance.
 
 **Q4: What certifications does the company have?**
-A4: Currently certifications are in progress. They can arrange third-party SGS testing upon request and are willing to pursue ISO/RoHS/CE certification based on customer requirements. Product quality is validated through factory-level cleanliness testing.
+A4: The company can provide an SDS safety data sheet for the cleanroom wipe. The available SDS is a safety document prepared from applicant-provided information; it is not an independent product performance test report or ISO/RoHS/CE certificate. Product cleanliness, particle, residue and certification claims require the corresponding model-specific report or certificate.
 
 **Q5: What is the minimum order quantity and pricing model?**
 A5: Standard MOQ is 100 packs per SKU. They offer EXW, FOB, and CIF trade terms. Their pricing strategy focuses on competitive factory-direct pricing with flexible customization options.

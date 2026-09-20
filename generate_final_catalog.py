@@ -265,9 +265,10 @@ story.append(Spacer(1, 3*mm))
 # ===== 认证 =====
 story.append(Paragraph("<b>8. 认证与质量 / Certifications</b>", sh1))
 cert_d = [
-    ["ISO","待确认","待与工厂确认"],
-    ["SGS","待确认","可提供第三方检测"],
-    ["RoHS","待确认","建议出口欧盟"],
+    ["SDS","可提供","无尘布SDS安全数据表；不等于产品性能检测报告或认证证书"],
+    ["ISO","待确认","需对应认证证书"],
+    ["SGS","待确认","需对应独立检测报告；现有SDS不是SGS产品检测报告"],
+    ["RoHS","待确认","需对应合规文件或认证"],
 ]
 story.append(make_table(["认证","状态","备注"], cert_d, [25,25,50]))
 story.append(Spacer(1, 3*mm))
