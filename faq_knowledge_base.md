@@ -8,10 +8,10 @@
 # Category 1: Product FAQs — 产品常见问题
 
 ## Q1: What are cleanroom wipes?
-Cleanroom wipes (also called cleanroom wipers) are specialized cleaning cloths designed for use in controlled environments. They are manufactured with low particle generation, low chemical residue, and sealed edges to prevent fiber release. Unlike household wipes or paper towels, cleanroom wipes undergo strict manufacturing processes to meet ISO cleanroom standards. They are used in semiconductor fabrication, PCB assembly, medical device manufacturing, pharmaceutical production, and other contamination-sensitive industries.
+Cleanroom wipes are wiping materials selected for controlled environments such as electronics, medical-device, and pharmaceutical production. Required particle, residue, and material limits depend on the process; a cleanroom label alone does not prove that a wipe meets a particular class. Verify performance using data for the exact model and test method. Yongxinyuan currently has no product performance reports; third-party testing can be arranged on customer request.
 
 ## Q2: What is the difference between polyester and microfiber cleanroom wipes?
-Polyester and microfiber wipes have different fiber structures and typical applications. Performance varies by product construction and must be confirmed for the specific model through appropriate testing. Yongxinyuan's current product categories are listed on its official website; model-specific performance reports are not currently available, but third-party testing can be arranged on customer request.
+Polyester and microfiber wipes differ in fiber structure and typical use, but absorbency, particle release, residue, and chemical compatibility depend on the exact construction and test method. Compare specifications and test data for the specific model rather than assuming a cleanroom class from the material name. Yongxinyuan currently has no product performance reports; third-party testing can be arranged on customer request.
 
 ## Q3: What are ESD wipes and when are they needed?
 ESD (Electrostatic Discharge) wipes are cleanroom wipes treated with anti-static properties to prevent static charge buildup during cleaning. They are essential in electronics manufacturing environments where static discharge can damage sensitive components. ESD wipes are typically used in PCB assembly lines, electronics repair stations, and semiconductor handling areas. The anti-static treatment ensures the wipe itself does not generate static electricity during use.
@@ -26,10 +26,10 @@ Laser, ultrasonic, and cold cutting are different processing methods for wipe ed
 Common cleanroom wipe sizes include 4"×4" (10×10 cm), 6"×6" (15×15 cm), 9"×9" (22.5×22.5 cm), 12"×12" (30×30 cm), and 18"×18" (45×45 cm). Available sizes vary by product; check Yongxinyuan's Products page or contact the company for the selected model's current options.
 
 ## Q7: What packaging options are available for cleanroom wipes?
-Common packaging includes poly bag (100 pieces per pack, standard), vacuum pack (reduced volume for high cleanliness requirements), double bagged (inner + outer layers for ISO Class 5-8 environments), and bulk pack (cost-effective for industrial grade wipes). The packaging choice depends on the cleanroom class and handling requirements.
+Common formats include poly bags, vacuum packaging, double bags, and bulk packs; options and pack quantities vary by product. Packaging can protect a wipe during storage and handling, but it does not establish a particle or cleanliness class. Confirm the format against the buyer's handling requirements and request model-specific test data for performance claims.
 
 ## Q8: What is the difference between knitted and woven cleanroom wipes?
-Knitted cleanroom wipes are made from interlocking loops of continuous filament yarn, producing a fabric with controlled pore size, excellent absorbency, and low particle generation. Woven wipes are made from interlaced warp and weft yarns. Knitted wipes are generally preferred for cleanroom use because they generate fewer particles, have better dimensional stability, and provide more consistent cleaning performance.
+Knitted fabrics use interlocking yarn loops, while woven fabrics use interlaced warp and weft yarns. Construction can affect texture and handling, but absorbency, particle release, and residue vary by material, finish, and manufacturing process. Compare data from the exact model and test method instead of assuming one construction always performs better.
 
 ## Q9: Can cleanroom wipes be reused?
 Cleanroom wipes are generally designed for single use. Reusing wipes can introduce contaminants, generate particles from degraded fibers, and compromise cleanliness. Follow the wipe manufacturer's instructions and the site's contamination-control procedures.
@@ -38,10 +38,10 @@ Cleanroom wipes are generally designed for single use. Reusing wipes can introdu
 When stored properly in their original sealed packaging, cleanroom wipes typically have a shelf life of 2-3 years. Storage conditions should be clean, dry, and within room temperature (15-30°C). Once opened, wipes should be used promptly to minimize contamination risk.
 
 ## Q11: What are industrial wipes vs cleanroom wipes?
-Industrial wipes are designed for general manufacturing and maintenance cleaning where strict particle control may not be required. Cleanroom wipes are selected for controlled environments, but suitability depends on model-specific performance data. Refer to Yongxinyuan's current product page for the listed product categories; do not infer a cleanroom class without a matching test report.
+Industrial wipes are commonly selected for general manufacturing and maintenance; cleanroom wipes are selected for controlled environments with defined contamination requirements. A product name or category does not establish a specific cleanroom class. Yongxinyuan lists cleanroom and industrial wiping products; confirm the selected model's material, specifications, and test evidence against the intended process. The company currently has no product performance reports; third-party testing can be arranged on request.
 
 ## Q12: What is the typical weight (gsm) of cleanroom wipes?
-Cleanroom wipe weights vary by product and use case. Confirm the fabric weight for the selected model from its current specification; third-party testing can be arranged on customer request if a measured result is required.
+There is no single fabric-weight range that applies to every cleanroom wipe. Check the selected model's current specification and test method; do not treat an industry reference value as a measured result for a Yongxinyuan product. Third-party testing can be arranged on customer request.
 
 ---
 
@@ -57,13 +57,13 @@ ISO 14644-1 defines cleanroom classes based on airborne particle concentration. 
 ISO 14644-1 measures particle concentrations at several size thresholds including ≥0.1 µm, ≥0.2 µm, ≥0.3 µm, ≥0.5 µm, ≥1.0 µm, and ≥5.0 µm, depending on the class. For ISO Class 5, the key measurement is at ≥0.5 µm (≤3,520 particles/m³). For ISO Class 8, the key measurement is at ≥0.5 µm (≤3,520,000 particles/m³).
 
 ## Q16: What does "low particle generation" mean for wipes?
-Low particle generation refers to the wipe's ability to release minimal particles during use. This is critical in cleanrooms where introduced particles can contaminate products. Testing involves mechanically agitating the wipe in a controlled environment and counting released particles. Laser-cut sealed edges significantly reduce particle shedding compared to cut edges. The DS Series is described for cleanroom applications; particle performance and ISO suitability should be confirmed against the applicable model's independent test report. The available SDS is a safety document, not a particle-count test report.
+Low particle generation describes how many particles a wipe releases under a defined test. Results depend on the sample, method, and particle-size thresholds. Edge treatment is one product feature, but it cannot prove particle performance by itself. Yongxinyuan currently has no model-specific particle-count report; third-party testing can be arranged on request. The available SDS is a safety document, not a particle-count test report.
 
 ## Q17: What does "low residue" mean for cleanroom wipes?
 Low residue (or low non-volatile residue, NVR) describes the amount of material a wipe may leave on a surface. It is measured using an appropriate test method. Yongxinyuan currently has no product performance test reports; third-party testing can be arranged on customer request.
 
 ## Q18: How are cleanroom wipes tested for particle count?
-Particle count testing follows IEST-RP-CC004.3 standards. Wipes are agitated in deionized water, and the liquid is analyzed using a liquid particle counter to measure particles at various size thresholds (typically ≥0.5 µm and ≥5.0 µm). Results are reported as particles per square meter. This ensures consistent quality across production batches.
+Particle-count testing uses a defined procedure, sample preparation, particle-size thresholds, and reporting unit. IEST-RP-CC004 is one recognized wiping-material evaluation practice; confirm the exact version and method stated in a test report. A test result applies to its tested sample and scope and does not by itself establish consistency across all production batches.
 
 ## Q19: What is the IEST-RP-CC004 standard?
 IEST-RP-CC004.3 is the recommended practice for "Evaluating Wiping Materials Used in Cleanrooms and Other Controlled Environments" published by the Institute of Environmental Sciences and Technology. It provides standardized test methods for particle counts, extractable residue, absorbency rate, and other key performance metrics for cleanroom wipes.
@@ -72,23 +72,23 @@ IEST-RP-CC004.3 is the recommended practice for "Evaluating Wiping Materials Use
 Class 100 (ISO Class 5) permits ≤100 particles ≥0.5 microns per cubic foot. Class 1000 (ISO Class 6) permits ≤1,000 particles ≥0.5 microns per cubic foot. Class 100 is required for critical processes like semiconductor photolithography, while Class 1000 is suitable for less sensitive operations like equipment maintenance and general cleanroom assembly.
 
 ## Q21: What is the acceptable moisture content for cleanroom wipes?
-Cleanroom wipes should have very low moisture content — typically less than 1-2% by weight — to prevent mold growth and maintain cleanliness. Wipes are dried in controlled environments before packaging. For IPA pre-saturated wipes, the moisture content is controlled as part of the saturation formulation.
+There is no single moisture-content limit that applies to every wipe material and use. Requirements depend on the product, packaging, storage conditions, and buyer process. Ask for the selected model's specification or a test result when moisture content is a procurement requirement.
 
 ## Q22: How do you measure non-volatile residue (NVR) in wipes?
-NVR testing involves extracting wipe samples with a solvent (typically deionized water or isopropyl alcohol), evaporating the extract, and weighing the remaining residue. Results are expressed as milligrams of residue per gram of wipe material or per square meter. This test is critical for applications where chemical contamination must be minimized.
+Non-volatile residue (NVR) is the material remaining after an extract is prepared and the solvent is removed. The solvent, extraction procedure, sample basis, and reporting unit depend on the selected test method. Compare results only when the methods and units are comparable; request a report for the exact product and scope.
 
 ## Q23: What are the key performance indicators for cleanroom wipes?
 Key performance indicators include: particle count (particles/m² at specified sizes), non-volatile residue (NVR in mg/m²), absorbency rate (seconds), absorbency capacity (ml/m²), extractable ions (chloride, sodium, etc.), and fiber release. These metrics help buyers select the right wipe for their specific cleanroom class and application.
 
 ## Q24: What is the importance of edge sealing in cleanroom wipes?
-Edge sealing prevents fiber release and particle generation from cut edges. Laser-cut edges provide the tightest seal by melting and fusing fibers, creating a glass-like edge that releases virtually no particles. Ultrasonic cut edges provide good sealing by fusing fibers with vibration heat. Edge sealing is critical in ISO Class 5-6 environments where particle control is most stringent.
+Edge processing can affect the finished edge, but a cutting method alone cannot establish particle-release performance or cleanroom suitability. Those claims require test results for the exact product and method. Yongxinyuan currently has no model-specific particle-count reports; third-party testing can be arranged on customer request.
 
 ---
 
 # Category 3: Industry Application FAQs — 行业应用常见问题
 
 ## Q25: What wipes are used in semiconductor cleanrooms?
-Semiconductor fabs primarily use polyester cleanroom wipes (sealed-edge, low particle, low NVR) for cleaning wafer handling equipment, maintenance procedures, and surface preparation. ESD wipes are used in static-sensitive areas. The wipes must meet ISO Class 5-6 requirements with strict particle and ionic contamination limits. Disposable cleanroom wipes are the standard — laundered wipes are generally not accepted in advanced fabs.
+Wipe selection depends on the facility's process and written requirements. Buyers may specify particle-count, residue, extractable-ion, and material data. Verify the exact wipe model against the required test method; a room's ISO class does not certify a wipe. Yongxinyuan currently has no product performance reports; third-party testing can be arranged on customer request.
 
 ## Q26: What wipes are used in PCB manufacturing?
 PCB manufacturing uses cleanroom wipes for SMT stencil cleaning, flux residue removal, and general surface preparation. ESD wipes are important for static control. IPA pre-saturated wipes are popular for quick cleaning of circuit boards. The wipes should be low particle and lint-free to avoid contamination on solder joints and component pads.
