@@ -45,12 +45,17 @@
           "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
         },
         "offers": {
-          "@type": "AggregateOffer",
+          "@type": "Offer",
           "priceCurrency": "USD",
+          "price": "13.50",
+          "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",
-          "minPrice": "0.12",
-          "maxPrice": "1.85",
-          "unit": "per piece"
+          "seller": {
+            "@type": "Organization",
+            "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.",
+            "alternateName": "深圳市永新源防静电科技有限公司",
+            "url": "https://cmdcsz-collab.github.io/cleanroom-wiper/"
+          }
         }
       }
     },
@@ -67,7 +72,20 @@
           "name": "KH Series"
         },
         "sku": "KH-0606, KH-0909, KH-1212",
-        "size": "6\"×6\" (15×15 cm) to 12\"×12\" (30×30 cm)"
+        "size": "6\"×6\" (15×15 cm) to 12\"×12\" (30×30 cm)",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "13.50",
+          "priceValidUntil": "2026-12-31",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.",
+            "alternateName": "深圳市永新源防静电科技有限公司",
+            "url": "https://cmdcsz-collab.github.io/cleanroom-wiper/"
+          }
+        }
       }
     }
   ],
