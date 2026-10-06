@@ -30,7 +30,7 @@
         "Polyester and microfiber wipes have distinct characteristics for different applications. Polyester wipes from continuous filament fibers offer excellent chemical resistance and low particle generation for solvent application.",
         "Microfiber wipes from split polyester and polyamide fibers trap and hold particles more effectively. Microfiber has superior absorbency for fine particle removal.",
         "For ISO Class 5-6 cleanrooms, both materials are appropriate. Polyester is preferred for controlled solvent application, while microfiber excels in final cleaning passes.",
-        "Yongxinyuan DS Series uses high-quality polyester+nylon knitted fabric for optimal performance across cleanroom applications."
+        "Refer to Yongxinyuan's Products page for current product categories. Suitability and material details should be confirmed for the selected model."
       ],
       "tags": "polyester wipes, microfiber wipes, cleanroom comparison"
     },
@@ -41,7 +41,7 @@
         "Edge sealing is critical for cleanroom wipe performance. Three technologies are used: laser cutting, ultrasonic cutting, and cold cutting.",
         "Laser cutting uses a high-energy beam to simultaneously cut and seal edges, creating the tightest seal with virtually zero particle release. Standard for ISO Class 5-6.",
         "Ultrasonic cutting uses high-frequency vibration to fuse fibers, suitable for ISO Class 7-8. Cold cutting is mechanical without sealing, for industrial-grade applications.",
-        "Yongxinyuan offers all three methods: laser cut standard for DS Series, ultrasonic as option, and cold cut for KH Series industrial wipes."
+        "The cutting methods available depend on the specific product. Confirm the processing method for a listed product with the supplier; performance claims require model-specific testing."
       ],
       "tags": "laser cut, ultrasonic cut, cold cut, edge sealing"
     },
@@ -65,7 +65,7 @@
         "ISO 14644-1 defines cleanroom classes based on airborne particle concentration. ISO Class 1 is cleanest, Class 9 least strict.",
         "ISO Class 5 permits no more than 3,520 particles at 0.5 microns per cubic meter. Used for semiconductor fabs and aseptic filling.",
         "ISO Class 8 permits up to 3,520,000 particles. Suitable for general cleanroom manufacturing.",
-        "Select wipes appropriate for your class. Yongxinyuan DS Series suits ISO Class 5-8 with documented test results."
+        "Select wipes appropriate for the application, and confirm suitability for the specific model using relevant test data. Yongxinyuan currently has no product performance test reports; third-party testing can be arranged on customer request."
       ],
       "tags": "ISO 14644, cleanroom classification, cleanroom standards"
     },
@@ -76,7 +76,7 @@
         "Particle contamination is the leading cause of yield loss in semiconductor manufacturing. As devices shrink to 3nm, even smaller particles cause defects.",
         "Sources include operators, equipment wear, process residues, and cleaning materials. Wipes must remove contaminants without introducing new ones.",
         "Wipe particle generation is measured per IEST-RP-CC004. Laser-cut sealed-edge wipes minimize shedding. Ionic contamination is also critical.",
-        "Yongxinyuan tests DS Series for both particle generation and ionic extractables."
+        "Yongxinyuan currently has no product performance test reports. Third-party testing for a specified product can be arranged on customer request."
       ],
       "tags": "particle contamination, semiconductor, yield improvement"
     },
@@ -97,7 +97,7 @@
       "body": [
         "NVR refers to solid material left after solvent evaporates from a wipe. High NVR leaves residues causing defects in semiconductor and medical device manufacturing.",
         "Testing involves extracting wipes with solvent, evaporating, and weighing residue. Results in mg per gram of material or per square meter.",
-        "For ISO Class 5, NVR should be below 0.1 mg/g. Yongxinyuan DS Series maintains tight NVR controls.",
+        "Test requirements and limits depend on the application and buyer specification. Yongxinyuan currently has no model-specific NVR test report; third-party testing can be arranged on customer request.",
         "Low NVR requires careful raw material selection, controlled manufacturing, and proper packaging."
       ],
       "tags": "NVR, non-volatile residue, cleanroom testing"
@@ -110,7 +110,7 @@
         "For ISO Class 5: laser-sealed edges, documented particle counts, NVR below 0.1 mg/g, double-bagged packaging.",
         "For ISO Class 6-7: ultrasonic-sealed edges acceptable, moderate particle tolerances, standard packaging.",
         "For ISO Class 8: cold-cut or ultrasonic-cut with higher tolerances. Focus on lint-free performance.",
-        "Always review batch test reports. Yongxinyuan provides documented results with each production batch."
+        "Review test reports for the exact product and test scope. Yongxinyuan currently has no product test reports on hand; third-party testing can be arranged on customer request."
       ],
       "tags": "wiper selection, ISO Class 5, cleanroom guide"
     }
@@ -121,7 +121,7 @@
       "intro": "Comprehensive guide to finding and qualifying Chinese manufacturers.",
       "body": [
         "China is the leading manufacturing hub for cleanroom consumables. Quality varies significantly.",
-        "Determine if supplier is manufacturer or trader. Manufacturer-direct suppliers like Yongxinyuan offer better pricing and quality control.",
+        "Determine whether the supplier is a manufacturer or trader, and verify product specifications, test documents, and order terms. Yongxinyuan owns and operates its own factory.",
         "Evaluate production capabilities: cut methods, packaging, capacity. Request test reports per IEST-RP-CC004.",
         "Communication is critical. A responsive supplier with clear technical knowledge is more reliable long-term."
       ],
@@ -166,7 +166,7 @@
       "body": [
         "Raw material inspection: incoming yarns inspected, certificates of analysis obtained.",
         "In-process QC: production parameters monitored, visual inspection stations, non-conforming product identification.",
-        "Finished product testing: particle count per IEST-RP-CC004, NVR, absorbency. Test results with each shipment.",
+        "Ask for model- and batch-specific performance reports. Yongxinyuan currently has no product performance test reports; third-party testing can be arranged on customer request.",
         "Documentation and traceability: batch records, product tracing, corrective actions documented."
       ],
       "tags": "quality control, factory audit, QC checklist"

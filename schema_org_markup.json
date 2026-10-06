@@ -4,7 +4,7 @@
   "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.",
   "alternateName": "深圳市永新源防静电科技有限公司",
   "url": "",
-  "description": "Founded in 2013, China-based manufacturer of cleanroom wipes (DS Series, Class 100~1000) and industrial wipes (KH Series). Serving semiconductor, PCB, medical device, and precision electronics industries. Laser-cut polyester/nylon knitted wipes with low particle and low residue performance.",
+  "description": "China-based manufacturer of cleanroom and industrial wipes with its own factory. Product performance test reports and certificates are not currently available; third-party testing can be arranged on customer request.",
   "foundingDate": "2013-04-07",
   "email": "",
   "telephone": "",
@@ -30,7 +30,7 @@
       "itemOffered": {
         "@type": "Product",
         "name": "DS Series Electronic Grade Cleanroom Wiper",
-        "description": "Polyester and Nylon knitted cleanroom wipes, ISO Class 5~8 (Class 100~1000), laser-cut sealed edges. Low particle generation, low chemical residue. Suitable for semiconductor cleanrooms, PCB manufacturing, medical device assembly, and precision electronics.",
+        "description": "Polyester and nylon knitted cleanroom wipes. Product-specific cleanliness and performance have not been verified by a current test report; third-party testing can be arranged on customer request.",
         "category": "Cleanroom Consumables",
         "material": "Polyester + Nylon Knitted",
         "brand": {

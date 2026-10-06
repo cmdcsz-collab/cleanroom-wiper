@@ -11,7 +11,7 @@
 Cleanroom wipes (also called cleanroom wipers) are specialized cleaning cloths designed for use in controlled environments. They are manufactured with low particle generation, low chemical residue, and sealed edges to prevent fiber release. Unlike household wipes or paper towels, cleanroom wipes undergo strict manufacturing processes to meet ISO cleanroom standards. They are used in semiconductor fabrication, PCB assembly, medical device manufacturing, pharmaceutical production, and other contamination-sensitive industries.
 
 ## Q2: What is the difference between polyester and microfiber cleanroom wipes?
-Polyester cleanroom wipes are made from continuous filament polyester fibers, knitted and laser-cut for low particle generation. They offer excellent chemical resistance and are ideal for ISO Class 5-8 environments. Microfiber wipes are made from split polyester and polyamide fibers, providing superior absorbency and particle trapping capability. Polyester wipes are preferred for general cleanroom cleaning and solvent application, while microfiber wipes excel in applications requiring high absorbency and fine particle removal. Yongxinyuan's DS Series uses high-quality polyester+nylon knitted fabric for optimal performance.
+Polyester and microfiber wipes have different fiber structures and typical applications. Performance varies by product construction and must be confirmed for the specific model through appropriate testing. Yongxinyuan's current product categories are listed on its official website; model-specific performance reports are not currently available, but third-party testing can be arranged on customer request.
 
 ## Q3: What are ESD wipes and when are they needed?
 ESD (Electrostatic Discharge) wipes are cleanroom wipes treated with anti-static properties to prevent static charge buildup during cleaning. They are essential in electronics manufacturing environments where static discharge can damage sensitive components. ESD wipes are typically used in PCB assembly lines, electronics repair stations, and semiconductor handling areas. The anti-static treatment ensures the wipe itself does not generate static electricity during use.
@@ -20,10 +20,10 @@ ESD (Electrostatic Discharge) wipes are cleanroom wipes treated with anti-static
 IPA (Isopropyl Alcohol) wipes are cleanroom wipes pre-saturated with isopropyl alcohol for immediate cleaning use. They are commonly used for surface preparation, flux removal, adhesive residue cleaning, and general disinfection in cleanroom environments. IPA wipes are particularly popular in electronics manufacturing for cleaning circuit boards and components before soldering or coating.
 
 ## Q5: What is the difference between laser cut, ultrasonic cut, and cold cut wipes?
-Laser cutting uses a high-energy laser beam to seal and cut the fabric simultaneously, creating the tightest edge seal with virtually zero particle release. It is the standard for high-class cleanroom wipes (ISO Class 5-6). Ultrasonic cutting uses high-frequency vibration to seal edges, suitable for ISO Class 7-8 environments. Cold cutting (die cutting) is a mechanical cut without edge sealing, used for industrial-grade wipes where cost is prioritized. Yongxinyuan offers all three cut methods: laser cut as standard, ultrasonic cut as an option, and cold cut for industrial grade.
+Laser, ultrasonic, and cold cutting are different processing methods for wipe edges. The method available depends on the specific product. Contact Yongxinyuan to confirm options for a listed product; performance claims require model-specific testing.
 
 ## Q6: What sizes of cleanroom wipes are commonly available?
-Common cleanroom wipe sizes include 4"×4" (10×10 cm), 6"×6" (15×15 cm), 9"×9" (22.5×22.5 cm), 12"×12" (30×30 cm), and 18"×18" (45×45 cm). Custom sizes are also available. The choice depends on the application — smaller wipes for precision cleaning tasks and larger wipes for surface wiping. Yongxinyuan's DS Series is available in all standard sizes from DS-0404 to DS-1818.
+Common cleanroom wipe sizes include 4"×4" (10×10 cm), 6"×6" (15×15 cm), 9"×9" (22.5×22.5 cm), 12"×12" (30×30 cm), and 18"×18" (45×45 cm). Available sizes vary by product; check Yongxinyuan's Products page or contact the company for the selected model's current options.
 
 ## Q7: What packaging options are available for cleanroom wipes?
 Common packaging includes poly bag (100 pieces per pack, standard), vacuum pack (reduced volume for high cleanliness requirements), double bagged (inner + outer layers for ISO Class 5-8 environments), and bulk pack (cost-effective for industrial grade wipes). The packaging choice depends on the cleanroom class and handling requirements.
@@ -32,16 +32,16 @@ Common packaging includes poly bag (100 pieces per pack, standard), vacuum pack 
 Knitted cleanroom wipes are made from interlocking loops of continuous filament yarn, producing a fabric with controlled pore size, excellent absorbency, and low particle generation. Woven wipes are made from interlaced warp and weft yarns. Knitted wipes are generally preferred for cleanroom use because they generate fewer particles, have better dimensional stability, and provide more consistent cleaning performance.
 
 ## Q9: Can cleanroom wipes be reused?
-Cleanroom wipes are designed for single use. Reusing wipes can introduce contaminants, generate particles from degraded fibers, and compromise cleanliness levels. For ISO Class 5-8 environments, single-use is the standard practice to maintain contamination control. Industrial-grade wipes may be laundered and reused in non-critical applications, but this is not recommended for cleanroom use.
+Cleanroom wipes are generally designed for single use. Reusing wipes can introduce contaminants, generate particles from degraded fibers, and compromise cleanliness. Follow the wipe manufacturer's instructions and the site's contamination-control procedures.
 
 ## Q10: What is the shelf life of cleanroom wipes?
 When stored properly in their original sealed packaging, cleanroom wipes typically have a shelf life of 2-3 years. Storage conditions should be clean, dry, and within room temperature (15-30°C). Once opened, wipes should be used promptly to minimize contamination risk.
 
 ## Q11: What are industrial wipes vs cleanroom wipes?
-Industrial wipes are designed for general manufacturing and maintenance cleaning where strict particle control is not required. They are more cost-effective and may use different materials and edge treatments. Cleanroom wipes are manufactured under controlled conditions with strict particle and residue limits, suitable for ISO classified environments. Yongxinyuan offers both DS Series (cleanroom grade) and KH Series (industrial grade) to serve different application needs.
+Industrial wipes are designed for general manufacturing and maintenance cleaning where strict particle control may not be required. Cleanroom wipes are selected for controlled environments, but suitability depends on model-specific performance data. Refer to Yongxinyuan's current product page for the listed product categories; do not infer a cleanroom class without a matching test report.
 
 ## Q12: What is the typical weight (gsm) of cleanroom wipes?
-Cleanroom wipe weights vary by application: lightweight wipes (100-140 gsm) for delicate surface cleaning, medium weight (140-200 gsm) for general cleanroom use, and heavy weight (200+ gsm) for tasks requiring higher absorbency and durability. Yongxinyuan's DS Series uses optimized fabric weights for each application.
+Cleanroom wipe weights vary by product and use case. Confirm the fabric weight for the selected model from its current specification; third-party testing can be arranged on customer request if a measured result is required.
 
 ---
 
@@ -51,7 +51,7 @@ Cleanroom wipe weights vary by application: lightweight wipes (100-140 gsm) for 
 ISO Class 5 (equivalent to the former Class 100 under FED STD 209E) is a cleanroom classification permitting no more than 3,520 particles ≥0.5 microns per cubic meter. These environments require strict gowning protocols, HEPA/ULPA filtration, and controlled air flow. Typical applications include semiconductor photolithography areas, aseptic pharmaceutical filling, and advanced medical device manufacturing.
 
 ## Q14: What are the ISO cleanroom classification levels?
-ISO 14644-1 defines cleanroom classes from ISO Class 1 (strictest) to ISO Class 9 (least strict). The main commercial grades are: ISO Class 5 (≤3,520 particles ≥0.5 µm/m³) for semiconductor fabs and aseptic filling; ISO Class 6 (≤35,200 particles) for cleanroom assembly; ISO Class 7 (≤352,000 particles) for pharmaceutical compounding; ISO Class 8 (≤3,520,000 particles) for general cleanroom manufacturing. Yongxinyuan's DS Series wipes are suitable for ISO Class 5-8 (Class 100-1000) environments.
+ISO 14644-1 defines cleanroom classes based on airborne particle concentration. A wipe's suitability must be confirmed for the specific product and customer process; it should not be inferred from a general class description alone. Third-party testing can be arranged on customer request.
 
 ## Q15: What particle sizes are measured in cleanroom classification?
 ISO 14644-1 measures particle concentrations at several size thresholds including ≥0.1 µm, ≥0.2 µm, ≥0.3 µm, ≥0.5 µm, ≥1.0 µm, and ≥5.0 µm, depending on the class. For ISO Class 5, the key measurement is at ≥0.5 µm (≤3,520 particles/m³). For ISO Class 8, the key measurement is at ≥0.5 µm (≤3,520,000 particles/m³).
@@ -60,7 +60,7 @@ ISO 14644-1 measures particle concentrations at several size thresholds includin
 Low particle generation refers to the wipe's ability to release minimal particles during use. This is critical in cleanrooms where introduced particles can contaminate products. Testing involves mechanically agitating the wipe in a controlled environment and counting released particles. Laser-cut sealed edges significantly reduce particle shedding compared to cut edges. The DS Series is described for cleanroom applications; particle performance and ISO suitability should be confirmed against the applicable model's independent test report. The available SDS is a safety document, not a particle-count test report.
 
 ## Q17: What does "low residue" mean for cleanroom wipes?
-Low residue (or low non-volatile residue, NVR) means the wipe leaves minimal chemical residue after wiping a surface. This is important in semiconductor and medical device manufacturing where residues can cause defects or contamination. Testing involves extracting wipes with solvents and measuring dissolved solids. Yongxinyuan's DS Series wipes undergo strict NVR control.
+Low residue (or low non-volatile residue, NVR) describes the amount of material a wipe may leave on a surface. It is measured using an appropriate test method. Yongxinyuan currently has no product performance test reports; third-party testing can be arranged on customer request.
 
 ## Q18: How are cleanroom wipes tested for particle count?
 Particle count testing follows IEST-RP-CC004.3 standards. Wipes are agitated in deionized water, and the liquid is analyzed using a liquid particle counter to measure particles at various size thresholds (typically ≥0.5 µm and ≥5.0 µm). Results are reported as particles per square meter. This ensures consistent quality across production batches.
@@ -122,10 +122,10 @@ Aerospace applications include cleaning precision instruments, optical component
 # Category 4: Sourcing & Purchasing FAQs — 采购常见问题
 
 ## Q35: How to select a cleanroom wipes supplier in China?
-When selecting a Chinese cleanroom wipes supplier, verify: factory ownership (manufacturer vs. trader), production capabilities (cut methods, packaging), quality control processes (testing equipment, standards), certifications, export experience, and communication responsiveness. Request samples and batch test reports before committing. Visiting the factory or conducting a video tour is recommended. Yongxinyuan welcomes factory visits and video tours.
+When selecting a Chinese cleanroom wipes supplier, verify factory ownership, product specifications, available test documents, and order terms. Yongxinyuan owns and operates its own factory. Product performance test reports and certificates are not currently available; third-party testing can be arranged on customer request. Contact the company to discuss facility visits.
 
 ## Q36: What certifications should a cleanroom wipes manufacturer have?
-Relevant documentation may include an SDS safety data sheet, model-specific product test reports, ISO 9001 quality management certification, and REACH/RoHS compliance documents where applicable. An SDS communicates safety and composition information; it is not a product performance test report or certification. Verify the actual document, model, date and issuer before making a claim.
+Yongxinyuan currently has no product performance test reports or product certificates. If a customer requires testing, third-party testing can be arranged for the specified product. Any report will relate to the tested sample/model and its test scope. An SDS safety data sheet is available separately and is not a performance test report or certification.
 
 ## Q37: What is the typical MOQ for cleanroom wipes?
 Typical MOQ for standard cleanroom wipes is 100-200 packs per SKU, with each pack containing 100 pieces. For custom sizes or special requirements, MOQ may be higher (300-500 packs). For trial orders, many manufacturers accept smaller quantities. Yongxinyuan's standard MOQ is 100 packs per SKU.
@@ -134,7 +134,7 @@ Typical MOQ for standard cleanroom wipes is 100-200 packs per SKU, with each pac
 Sea freight from China to Europe takes approximately 25-35 days, to the USA West Coast 15-20 days, and to the USA East Coast 25-35 days. Air freight takes 5-10 days including customs clearance. Express courier (DHL, FedEx, UPS) can deliver samples in 3-7 days. Shipping times vary by port, season, and logistics conditions.
 
 ## Q39: What are the common shipping terms (FOB, CIF, EXW)?
-EXW (Ex Works): buyer arranges all shipping from the factory. FOB (Free On Board): seller delivers to the port and loads onto the vessel. CIF (Cost, Insurance, Freight): seller covers cost, insurance, and freight to the destination port. For first-time buyers, FOB Shenzhen or CIF are common choices. Yongxinyuan offers all three trade terms.
+EXW (Ex Works), FOB (Free On Board), and CIF (Cost, Insurance, Freight) describe different responsibilities for transport and costs. Confirm the available trade terms for each order with the seller.
 
 ## Q40: How to request cleanroom wipes samples?
 To request samples, contact the supplier with: your company information, intended application and industry, desired product specifications (size, material, cut method, packaging), and target cleanroom class. Samples typically cost a nominal fee with shipping paid by the buyer, though some suppliers offer free samples for serious inquiries. Yongxinyuan provides samples for qualified buyers.
@@ -143,13 +143,13 @@ To request samples, contact the supplier with: your company information, intende
 For custom orders, provide: dimensions (length × width), material type (polyester, microfiber, nylon blend), cut method (laser, ultrasonic, cold cut), edge color (white, blue, ivory), packaging type (poly bag, vacuum pack, double bagged), pack quantity, and logo/brand requirements. Technical specifications like target particle count and NVR limits should also be discussed.
 
 ## Q42: Is it better to buy from a manufacturer or a trading company?
-Buying directly from a manufacturer offers advantages: better pricing (no middleman markup), direct quality control, factory flexibility for custom orders, and direct communication with production teams. Yongxinyuan is a manufacturer-direct supplier with its own factory in Shenzhen, ensuring competitive pricing and full quality control.
+Buying from a manufacturer can provide direct communication about product specifications and production. Yongxinyuan owns and operates its own factory; pricing, customization, and order terms should be confirmed for the selected product and order.
 
 ## Q43: What payment terms are commonly accepted?
 Common payment terms include T/T (Telegraphic Transfer) with 30% deposit and 70% before shipment for new customers, L/C (Letter of Credit) for established relationships, and PayPal/Wise for sample and small orders. Payment terms may be negotiable based on order value and relationship history.
 
 ## Q44: How to ensure quality consistency across batches?
-Request batch test reports (particle count, NVR, absorbency) with each shipment. Establish clear quality specifications in the purchase agreement. Maintain reference samples from approved batches. Consider third-party inspection for large orders. A reliable manufacturer will have documented QC procedures and traceability. Yongxinyuan maintains consistent quality with documented batch testing.
+Agree on product specifications and acceptance criteria before ordering. Yongxinyuan does not currently have product performance test reports or certificates available. If requested, third-party testing can be arranged for the specified product; confirm the scope and timing before placing an order.
 
 ## Q45: What is the typical lead time for cleanroom wipe orders?
 For standard products, production lead time is typically 15-25 days after order confirmation and deposit. Custom orders (special sizes, packaging, logo printing) may require 25-40 days. Rush orders may be accommodated with expedited production scheduling. Lead time also varies by production season and factory capacity.
@@ -174,7 +174,7 @@ Yes, Yongxinyuan owns and operates its own factory in Longhua, Shenzhen. As a ma
 Yongxinyuan's factory employs 100+ staff and operates multiple production lines capable of handling both standard and custom orders. Specific capacity details can be discussed during business negotiations based on product specifications and order volume.
 
 ## Q51: What quality control measures does Yongxinyuan have?
-Yongxinyuan implements quality control throughout the production process: incoming material inspection, in-process quality checks, finished product testing (particle count, absorbency, visual inspection), and batch documentation. The company maintains controlled manufacturing conditions suitable for Class 100-1000 cleanroom wipes production.
+Yongxinyuan currently has no product performance test reports or certificates. Third-party testing can be arranged on customer request; confirm the product, sample, and test scope before ordering.
 
 ## Q52: Can Yongxinyuan provide OEM/custom packaging?
 Yes, Yongxinyuan offers OEM services including custom dimensions, custom packaging (pack quantity, packaging type), logo printing on packaging, and custom cut methods (laser, ultrasonic, cold cut). MOQ for custom orders applies.
