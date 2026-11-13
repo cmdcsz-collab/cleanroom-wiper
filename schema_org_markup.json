@@ -1,10 +1,10 @@
-﻿{
+{
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.",
   "alternateName": "深圳市永新源防静电科技有限公司",
   "url": "",
-  "description": "China-based manufacturer of cleanroom and industrial wipes with its own factory. Product performance test reports and certificates are not currently available; third-party testing can be arranged on customer request.",
+  "description": "Manufacturer and exporter of cleanroom wipes and industrial wipes for contamination control applications across semiconductor, electronics, medical device, and precision manufacturing industries.",
   "foundingDate": "2013-04-07",
   "email": "",
   "telephone": "",
@@ -29,33 +29,13 @@
       "@type": "Offer",
       "itemOffered": {
         "@type": "Product",
-        "name": "DS Series Electronic Grade Cleanroom Wiper",
-        "description": "Polyester and nylon knitted cleanroom wipes. Product-specific cleanliness and performance have not been verified by a current test report; third-party testing can be arranged on customer request.",
-        "category": "Cleanroom Consumables",
-        "material": "Polyester + Nylon Knitted",
+        "name": "Superfine Fiber Lint-Free Cleanroom Wipes",
+        "description": "100% polyester superfine fiber knitted wipes. Confirm model-specific cleanliness and performance with applicable test data.",
+        "category": "Cleanroom Wipes > Superfine Fiber",
+        "material": "100% Polyester Superfine Fiber",
         "brand": {
           "@type": "Brand",
-          "name": "DS Series"
-        },
-        "sku": "DS-0404, DS-0606, DS-0909, DS-1212, DS-1818",
-        "size": "4\"×4\" (10×10 cm) to 18\"×18\" (45×45 cm)",
-        "color": "White, Blue, Ivory",
-        "manufacturer": {
-          "@type": "Organization",
           "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
-        },
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "13.50",
-          "priceValidUntil": "2026-12-31",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Organization",
-            "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.",
-            "alternateName": "深圳市永新源防静电科技有限公司",
-            "url": "https://cmdcsz-collab.github.io/cleanroom-wiper/"
-          }
         }
       }
     },
@@ -63,34 +43,32 @@
       "@type": "Offer",
       "itemOffered": {
         "@type": "Product",
-        "name": "KH Series Industrial Wipes",
-        "description": "Polyester knitted industrial wipes for general cleaning applications. Suitable for mechanical workshops, automotive maintenance, and general industrial cleaning. Cost-effective alternative to cleanroom-grade wipes.",
-        "category": "Industrial Wipes",
-        "material": "Polyester Knitted",
+        "name": "100% Polyester Double-Knit Cleanroom Wipes",
+        "description": "100% polyester double-knit cleanroom wipes. The 9×9 in item is a featured configuration within this product category; confirm exact model specifications and test evidence.",
+        "category": "Cleanroom Wipes > 100% Polyester Double-Knit",
+        "material": "100% Polyester Double-Knit",
         "brand": {
           "@type": "Brand",
-          "name": "KH Series"
-        },
-        "sku": "KH-0606, KH-0909, KH-1212",
-        "size": "6\"×6\" (15×15 cm) to 12\"×12\" (30×30 cm)",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "13.50",
-          "priceValidUntil": "2026-12-31",
-          "availability": "https://schema.org/InStock",
-          "seller": {
-            "@type": "Organization",
-            "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd.",
-            "alternateName": "深圳市永新源防静电科技有限公司",
-            "url": "https://cmdcsz-collab.github.io/cleanroom-wiper/"
-          }
+          "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
+        }
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "0609 Airlaid Paper Wiping Products",
+        "description": "Single-layer airlaid wiping paper made with 55% cellulose and 45% polyester nonwoven. Confirm specifications for the selected model.",
+        "category": "Industrial Wipes > Airlaid Paper Wipes",
+        "material": "55% Cellulose + 45% Polyester Nonwoven",
+        "brand": {
+          "@type": "Brand",
+          "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
         }
       }
     }
   ],
   "industry": "Cleanroom Consumables Manufacturing and Export",
-  "description": "Manufacturer and exporter of cleanroom wipes and industrial wipes for contamination control applications across semiconductor, electronics, medical device, and precision manufacturing industries.",
   "keywords": [
     "cleanroom wipes supplier",
     "cleanroom wipes China",
@@ -107,39 +85,44 @@
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Cleanroom Wiper Product Lines",
+    "name": "Yongxinyuan Product Categories",
     "itemListElement": [
       {
         "@type": "Product",
-        "name": "DS-0404 Cleanroom Wiper 4\"×4\"",
-        "category": "Electronic Grade Cleanroom Wiper",
-        "sku": "DS-0404"
+        "name": "Superfine Fiber Lint-Free Cleanroom Wipes",
+        "description": "100% polyester superfine fiber knitted wipes. Confirm model-specific cleanliness and performance with applicable test data.",
+        "category": "Cleanroom Wipes > Superfine Fiber",
+        "material": "100% Polyester Superfine Fiber",
+        "brand": {
+          "@type": "Brand",
+          "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
+        }
       },
       {
         "@type": "Product",
-        "name": "DS-0606 Cleanroom Wiper 6\"×6\"",
-        "category": "Electronic Grade Cleanroom Wiper",
-        "sku": "DS-0606"
+        "name": "100% Polyester Double-Knit Cleanroom Wipes",
+        "description": "100% polyester double-knit cleanroom wipes. The 9×9 in item is a featured configuration within this product category; confirm exact model specifications and test evidence.",
+        "category": "Cleanroom Wipes > 100% Polyester Double-Knit",
+        "material": "100% Polyester Double-Knit",
+        "brand": {
+          "@type": "Brand",
+          "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
+        }
       },
       {
         "@type": "Product",
-        "name": "DS-0909 Cleanroom Wiper 9\"×9\"",
-        "category": "Electronic Grade Cleanroom Wiper",
-        "sku": "DS-0909"
-      },
-      {
-        "@type": "Product",
-        "name": "DS-1212 Cleanroom Wiper 12\"×12\"",
-        "category": "Electronic Grade Cleanroom Wiper",
-        "sku": "DS-1212"
-      },
-      {
-        "@type": "Product",
-        "name": "DS-1818 Cleanroom Wiper 18\"×18\"",
-        "category": "Electronic Grade Cleanroom Wiper",
-        "sku": "DS-1818"
+        "name": "0609 Airlaid Paper Wiping Products",
+        "description": "Single-layer airlaid wiping paper made with 55% cellulose and 45% polyester nonwoven. Confirm specifications for the selected model.",
+        "category": "Industrial Wipes > Airlaid Paper Wipes",
+        "material": "55% Cellulose + 45% Polyester Nonwoven",
+        "brand": {
+          "@type": "Brand",
+          "name": "Shenzhen Yongxinyuan Anti-static Technology Co., Ltd."
+        }
       }
     ]
   },
-  "sameAs": ["https://www.linkedin.com/in/%E6%95%8F%E4%B8%9C-%E9%99%88-521404416/"]
+  "sameAs": [
+    "https://www.linkedin.com/in/%E6%95%8F%E4%B8%9C-%E9%99%88-521404416/"
+  ]
 }
